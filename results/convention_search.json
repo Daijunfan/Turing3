@@ -1,0 +1,331 @@
+{
+  "A_B_transpose_and_swap": "covered by the six tensor-axis isomorphisms; rectangular incompatible interpretations are rejected by dimensions",
+  "canonical_residual_count_mod_1000003": 28098,
+  "commutativity": "non-commutative target checked; commutative quotient is not the declared algorithm semantics",
+  "coordinate_vectorizations": [
+    {
+      "U": "row-major",
+      "V": "row-major",
+      "W": "row-major",
+      "residual_count_mod_1000003": 28098,
+      "sample": [
+        {
+          "a": 24,
+          "b": 729,
+          "c": 9,
+          "value": "1000002"
+        },
+        {
+          "a": 25,
+          "b": 759,
+          "c": 9,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "row-major",
+      "V": "row-major",
+      "W": "column-major",
+      "residual_count_mod_1000003": 40719,
+      "sample": [
+        {
+          "a": 0,
+          "b": 1,
+          "c": 1,
+          "value": "1000002"
+        },
+        {
+          "a": 1,
+          "b": 31,
+          "c": 1,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "row-major",
+      "V": "column-major",
+      "W": "row-major",
+      "residual_count_mod_1000003": 40806,
+      "sample": [
+        {
+          "a": 1,
+          "b": 30,
+          "c": 0,
+          "value": "1000002"
+        },
+        {
+          "a": 2,
+          "b": 60,
+          "c": 0,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "row-major",
+      "V": "column-major",
+      "W": "column-major",
+      "residual_count_mod_1000003": 40829,
+      "sample": [
+        {
+          "a": 1,
+          "b": 30,
+          "c": 0,
+          "value": "1000002"
+        },
+        {
+          "a": 2,
+          "b": 60,
+          "c": 0,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "column-major",
+      "V": "row-major",
+      "W": "row-major",
+      "residual_count_mod_1000003": 40704,
+      "sample": [
+        {
+          "a": 1,
+          "b": 30,
+          "c": 0,
+          "value": "1000002"
+        },
+        {
+          "a": 2,
+          "b": 60,
+          "c": 0,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "column-major",
+      "V": "row-major",
+      "W": "column-major",
+      "residual_count_mod_1000003": 40837,
+      "sample": [
+        {
+          "a": 1,
+          "b": 30,
+          "c": 0,
+          "value": "1000002"
+        },
+        {
+          "a": 2,
+          "b": 60,
+          "c": 0,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "column-major",
+      "V": "column-major",
+      "W": "row-major",
+      "residual_count_mod_1000003": 40835,
+      "sample": [
+        {
+          "a": 1,
+          "b": 30,
+          "c": 0,
+          "value": "1000002"
+        },
+        {
+          "a": 2,
+          "b": 60,
+          "c": 0,
+          "value": "1000002"
+        }
+      ]
+    },
+    {
+      "U": "column-major",
+      "V": "column-major",
+      "W": "column-major",
+      "residual_count_mod_1000003": 40838,
+      "sample": [
+        {
+          "a": 1,
+          "b": 30,
+          "c": 0,
+          "value": "1000002"
+        },
+        {
+          "a": 2,
+          "b": 60,
+          "c": 0,
+          "value": "1000002"
+        }
+      ]
+    }
+  ],
+  "domains": {
+    "F1000003": {
+      "method": "direct coefficient reduction",
+      "residual_count": 28098,
+      "sample": [
+        {
+          "a": 24,
+          "b": 729,
+          "c": 9,
+          "value": "1000002"
+        },
+        {
+          "a": 25,
+          "b": 759,
+          "c": 9,
+          "value": "1000002"
+        },
+        {
+          "a": 26,
+          "b": 789,
+          "c": 9,
+          "value": "1000002"
+        },
+        {
+          "a": 24,
+          "b": 639,
+          "c": 9,
+          "value": "500002"
+        }
+      ]
+    },
+    "F1000033": {
+      "method": "direct coefficient reduction",
+      "residual_count": 28098,
+      "sample": [
+        {
+          "a": 24,
+          "b": 729,
+          "c": 9,
+          "value": "1000032"
+        },
+        {
+          "a": 25,
+          "b": 759,
+          "c": 9,
+          "value": "1000032"
+        },
+        {
+          "a": 26,
+          "b": 789,
+          "c": 9,
+          "value": "1000032"
+        },
+        {
+          "a": 24,
+          "b": 639,
+          "c": 9,
+          "value": "500017"
+        }
+      ]
+    },
+    "F1000037": {
+      "method": "direct coefficient reduction",
+      "residual_count": 28098,
+      "sample": [
+        {
+          "a": 24,
+          "b": 729,
+          "c": 9,
+          "value": "1000036"
+        },
+        {
+          "a": 25,
+          "b": 759,
+          "c": 9,
+          "value": "1000036"
+        },
+        {
+          "a": 26,
+          "b": 789,
+          "c": 9,
+          "value": "1000036"
+        },
+        {
+          "a": 24,
+          "b": 639,
+          "c": 9,
+          "value": "500019"
+        }
+      ]
+    },
+    "F2": {
+      "direct_reduction": "UNDEFINED: a coefficient denominator is non-invertible",
+      "method": "primitive integral residual after clearing global denominator 70",
+      "residual_count": 576,
+      "sample": [
+        [
+          24,
+          639,
+          9,
+          1
+        ],
+        [
+          24,
+          645,
+          9,
+          1
+        ],
+        [
+          25,
+          669,
+          9,
+          1
+        ],
+        [
+          25,
+          675,
+          9,
+          1
+        ]
+      ]
+    },
+    "F3": {
+      "method": "direct coefficient reduction",
+      "residual_count": 15786,
+      "sample": [
+        {
+          "a": 24,
+          "b": 729,
+          "c": 9,
+          "value": "2"
+        },
+        {
+          "a": 25,
+          "b": 759,
+          "c": 9,
+          "value": "2"
+        },
+        {
+          "a": 26,
+          "b": 789,
+          "c": 9,
+          "value": "2"
+        },
+        {
+          "a": 24,
+          "b": 639,
+          "c": 9,
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "exhausted": true,
+  "index_base": "Matrix entries are positional; raw A_i_j/B_i_j labels are checked 1-based and converted once. A 0-based reading contains out-of-range labels.",
+  "output_transpose": "covered explicitly by W row/column-major cases",
+  "s3_axis_permutations": {
+    "count": 6,
+    "reason": "simultaneous tensor-axis permutation is a coordinate bijection and preserves nonzero residual support cardinality",
+    "residual_nonzero_preserved": true
+  },
+  "sign_conventions": "all rank-one factor sign moves with product +1 are gauge-equivalent; product -1 changes P to -P and cannot cancel a nonzero T-P residual",
+  "status": "PASS",
+  "tensor_lrp_factor_identity": true
+}

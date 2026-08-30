@@ -1,0 +1,12 @@
+{
+  "certificate_sha256": "4ba0ba72ab4ee8ac133e2fa80be7f1afa12435700c5885fc51e3099199cd6846",
+  "factors": [],
+  "format": "germsynth-cr-residual-completion-v1",
+  "lower_bound": 9,
+  "rank": "UNKNOWN",
+  "reason": "No exact completion decomposition supplied; rank <=8 is impossible by flattening.",
+  "residual_sha256": "469f787b1675ebb7ecc7cbae608a3dca65e8fb2cbe8eb8462d0d26f4709e1c62",
+  "residual_stream": "certificates/residual_local_21.jsonl",
+  "status": "FAIL",
+  "upper_bound": 51
+}

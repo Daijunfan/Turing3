@@ -1,0 +1,40 @@
+{
+  "automatically_detected_outer_factor_pairs": {
+    "U": [
+      [
+        31,
+        47
+      ],
+      [
+        36,
+        48
+      ],
+      [
+        216,
+        234
+      ],
+      [
+        220,
+        232
+      ],
+      [
+        223,
+        231
+      ],
+      [
+        225,
+        230
+      ]
+    ],
+    "V": [],
+    "W": []
+  },
+  "fallback_exact": true,
+  "fallback_rank": 3750,
+  "ordinary_slots_required": 238,
+  "reason": "six shared-U pairs yield local dimensions 6x18x12, not the 12x9x12 dimensions of <4,3,3>; no legal 3744 exact cover exists",
+  "shared_V_pair_count": 0,
+  "slot_count": 250,
+  "status": "FAIL",
+  "valid_pair_organs": []
+}

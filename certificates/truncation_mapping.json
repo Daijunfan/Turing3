@@ -1,0 +1,58 @@
+{
+  "actual_product_count": 21,
+  "automatic_product_ids": [
+    3570,
+    3571,
+    3572,
+    3573,
+    3574,
+    3575,
+    3576,
+    3577,
+    3578,
+    3579,
+    3580,
+    3581,
+    3656,
+    3657,
+    3670,
+    3671,
+    3672,
+    3673,
+    3674,
+    3675,
+    3676
+  ],
+  "automatic_slot_ids": [
+    187,
+    223
+  ],
+  "basis_alignment": "IMPOSSIBLE_BY_FACTOR_DIMENSIONS",
+  "certificate_sha256": "9a53556fb202d6b7f1969fc9041737ed770331817d3aea56c02bdf9789819de9",
+  "claimed_missing_count": 8,
+  "completion_rank": "UNKNOWN",
+  "completion_rank_lower_bound": 9,
+  "completion_rank_upper_bound": 51,
+  "eight_term_completion_impossible": true,
+  "flattening_lower_bound": 9,
+  "flattening_ranks": [
+    6,
+    9,
+    6
+  ],
+  "format": "germsynth-cr-truncation-mapping-v1",
+  "hypothesis": "the 21-term component is a 29-term <4,3,3> scheme missing eight terms",
+  "local_nonzero_count": 936,
+  "local_residual_sha256": "469f787b1675ebb7ecc7cbae608a3dca65e8fb2cbe8eb8462d0d26f4709e1c62",
+  "public_4x3x3_factor_dimensions": [
+    12,
+    9,
+    12
+  ],
+  "recovered_pair_ambient_factor_dimensions": [
+    12,
+    18,
+    12
+  ],
+  "status": "FAIL"
+}

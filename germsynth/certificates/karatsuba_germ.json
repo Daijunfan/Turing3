@@ -33,7 +33,7 @@
     "distinct_rank_one_tensors": 416,
     "examined_pairs": 6269,
     "method": "exact ternary rank-one enumeration plus complement hashing",
-    "search_seconds": 0.005785249988548458
+    "search_seconds": 0.004932500014547259
   },
   "rank": 3,
   "reconstructed_tensor_sha256": "2a3e73cbfb671d5dbb2db6a7b9dfae4ab5040b1621cedb924bdaf6731e9921b6",

@@ -1,0 +1,142 @@
+{
+  "benchmark_A_rank3744": "FAIL",
+  "benchmark_B_pan_pair": [
+    {
+      "gain_vs_naive": -4,
+      "mixed_product_count": 4,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "rank": 12,
+      "residual_count": 0,
+      "residual_sample": [],
+      "status": "PASS"
+    },
+    {
+      "gain_vs_naive": -3,
+      "mixed_product_count": 18,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "rank": 39,
+      "residual_count": 0,
+      "residual_sample": [],
+      "status": "PASS"
+    },
+    {
+      "gain_vs_naive": 0,
+      "mixed_product_count": 32,
+      "parameters": [
+        4,
+        2,
+        4
+      ],
+      "rank": 64,
+      "residual_count": 0,
+      "residual_sample": [],
+      "status": "PASS"
+    },
+    {
+      "gain_vs_naive": 5,
+      "mixed_product_count": 50,
+      "parameters": [
+        5,
+        2,
+        5
+      ],
+      "rank": 95,
+      "residual_count": 0,
+      "residual_sample": [],
+      "status": "PASS"
+    }
+  ],
+  "benchmark_C_rank48": {
+    "contact_localization": "GLOBAL_UNCLASSIFIED",
+    "kron_rank_census": {
+      "1x1x2": 4,
+      "1x2x1": 4,
+      "2x1x1": 4,
+      "2x1x2": 4,
+      "2x2x1": 4,
+      "2x2x2": 8,
+      "2x2x4": 4,
+      "2x3x3": 4,
+      "2x4x1": 2,
+      "2x4x2": 2,
+      "4x1x2": 4,
+      "4x2x1": 4
+    },
+    "plain_slot_products": 0,
+    "rank48": {
+      "coordinates_checked": 4096,
+      "exact": true,
+      "logical_tensor_coordinates": 4096,
+      "modular_screens": [
+        {
+          "prime": 1000003,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000033,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000037,
+          "residual_count": 0,
+          "sample": []
+        }
+      ],
+      "rank": 48,
+      "residual_count": 0,
+      "residual_sample": [],
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    "source_sha256": "4623fdb32a4af5f564c38ee03918f9e4ca94cada4af2b69dd2db4fb3d8488c44",
+    "status": "PASS",
+    "strassen_squared": {
+      "coordinates_checked": 4096,
+      "exact": true,
+      "logical_tensor_coordinates": 4096,
+      "modular_screens": [
+        {
+          "prime": 1000003,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000033,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000037,
+          "residual_count": 0,
+          "sample": []
+        }
+      ],
+      "rank": 49,
+      "residual_count": 0,
+      "residual_sample": [],
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    "strassen_squared_rank": 49,
+    "strict_gain": 1
+  },
+  "status": "FAIL"
+}

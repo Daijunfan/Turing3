@@ -1,0 +1,13 @@
+{
+  "certificate_sha256": "02a3de41136e3c53d6d9bf2d8e473a993537a8b8eb621b65bf9c2dddba1a3c82",
+  "claim": "tensor rank is at least the maximum flattening rank",
+  "format": "germsynth-cr-flattening-lower-bound-v1",
+  "general_tensor_rank": "UNKNOWN",
+  "lower_bound": 9,
+  "mode_ranks": [
+    6,
+    9,
+    6
+  ],
+  "residual_sha256": "469f787b1675ebb7ecc7cbae608a3dca65e8fb2cbe8eb8462d0d26f4709e1c62"
+}

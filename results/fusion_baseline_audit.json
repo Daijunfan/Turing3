@@ -14,7 +14,7 @@
       "pass": true,
       "returncode": 0,
       "stderr": "",
-      "stdout": "...........                                                              [100%]\n11 passed in 6.68s\n"
+      "stdout": "...........                                                              [100%]\n11 passed in 3.67s\n"
     },
     {
       "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/.venv/bin/python independent_verify.py certificates/karatsuba_germ.json",
@@ -52,7 +52,7 @@
       "stdout": "mixed n=64 exact=true scalar_multiplications=117649\nfault-aware n=32 exact=true scalar_multiplications=16807\nphenotypes=16 resources=44 minimum_single_fault_cover=3\nCXX_POOL_INDEPENDENT_VERIFICATION=PASS\n"
     }
   ],
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "note": "The original reproduce.sh first stopped because system Python 3.14 lacked pytest; the equivalent entry was rerun in germsynth/.venv without changing baseline source semantics.",
   "original_archive": "GermSynth-R_prototype.zip",
   "original_archive_sha256": "69c11fc7554938a2b878d5844951bed62068294c7329e915ab8382d42b3dab8a",

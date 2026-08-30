@@ -1,0 +1,49 @@
+{
+  "classification": "OTHER_VERSION_ALGORITHM",
+  "conclusion": "3825 is the true rank of a valid, separate, older evaluation program; it is not an optimized encoding of 3736 or 3744.",
+  "constant_multiplications": 0,
+  "exact_verification": {
+    "coordinates_checked": 41990400,
+    "exact": true,
+    "logical_tensor_coordinates": 41990400,
+    "modular_screens": [
+      {
+        "prime": 1000003,
+        "residual_count": 0,
+        "sample": []
+      },
+      {
+        "prime": 1000033,
+        "residual_count": 0,
+        "sample": []
+      },
+      {
+        "prime": 1000037,
+        "residual_count": 0,
+        "sample": []
+      }
+    ],
+    "rank": 3825,
+    "residual_count": 0,
+    "residual_sample": [],
+    "shape": [
+      8,
+      27,
+      30
+    ],
+    "status": "PASS"
+  },
+  "last_modified": "Wed, 23 Nov 2022 14:32:31 GMT",
+  "output_count": 240,
+  "product_audit": {
+    "cancelling_groups": [],
+    "directly_mergeable_groups": [],
+    "proportional_groups": [],
+    "zero_product_ids": []
+  },
+  "semantic_bilinear_product_count": 3825,
+  "status": "PASS",
+  "temporary_variables": 0,
+  "textual_m_assignment_count": 3825,
+  "unexecuted_multiplications": 0
+}

@@ -1,0 +1,5666 @@
+{
+  "contact_rank": {
+    "automatically_detected_outer_factor_pairs": {
+      "U": [
+        [
+          31,
+          47
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          216,
+          234
+        ],
+        [
+          220,
+          232
+        ],
+        [
+          223,
+          231
+        ],
+        [
+          225,
+          230
+        ]
+      ],
+      "V": [],
+      "W": []
+    },
+    "fallback_exact": true,
+    "fallback_rank": 3750,
+    "ordinary_slots_required": 238,
+    "reason": "six shared-U pairs yield local dimensions 6x18x12, not the 12x9x12 dimensions of <4,3,3>; no legal 3744 exact cover exists",
+    "shared_V_pair_count": 0,
+    "slot_count": 250,
+    "status": "FAIL",
+    "valid_pair_organs": []
+  },
+  "convention_search": {
+    "A_B_transpose_and_swap": "covered by the six tensor-axis isomorphisms; rectangular incompatible interpretations are rejected by dimensions",
+    "canonical_residual_count_mod_1000003": 28098,
+    "commutativity": "non-commutative target checked; commutative quotient is not the declared algorithm semantics",
+    "coordinate_vectorizations": [
+      {
+        "U": "row-major",
+        "V": "row-major",
+        "W": "row-major",
+        "residual_count_mod_1000003": 28098,
+        "sample": [
+          {
+            "a": 24,
+            "b": 729,
+            "c": 9,
+            "value": "1000002"
+          },
+          {
+            "a": 25,
+            "b": 759,
+            "c": 9,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "row-major",
+        "V": "row-major",
+        "W": "column-major",
+        "residual_count_mod_1000003": 40719,
+        "sample": [
+          {
+            "a": 0,
+            "b": 1,
+            "c": 1,
+            "value": "1000002"
+          },
+          {
+            "a": 1,
+            "b": 31,
+            "c": 1,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "row-major",
+        "V": "column-major",
+        "W": "row-major",
+        "residual_count_mod_1000003": 40806,
+        "sample": [
+          {
+            "a": 1,
+            "b": 30,
+            "c": 0,
+            "value": "1000002"
+          },
+          {
+            "a": 2,
+            "b": 60,
+            "c": 0,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "row-major",
+        "V": "column-major",
+        "W": "column-major",
+        "residual_count_mod_1000003": 40829,
+        "sample": [
+          {
+            "a": 1,
+            "b": 30,
+            "c": 0,
+            "value": "1000002"
+          },
+          {
+            "a": 2,
+            "b": 60,
+            "c": 0,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "column-major",
+        "V": "row-major",
+        "W": "row-major",
+        "residual_count_mod_1000003": 40704,
+        "sample": [
+          {
+            "a": 1,
+            "b": 30,
+            "c": 0,
+            "value": "1000002"
+          },
+          {
+            "a": 2,
+            "b": 60,
+            "c": 0,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "column-major",
+        "V": "row-major",
+        "W": "column-major",
+        "residual_count_mod_1000003": 40837,
+        "sample": [
+          {
+            "a": 1,
+            "b": 30,
+            "c": 0,
+            "value": "1000002"
+          },
+          {
+            "a": 2,
+            "b": 60,
+            "c": 0,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "column-major",
+        "V": "column-major",
+        "W": "row-major",
+        "residual_count_mod_1000003": 40835,
+        "sample": [
+          {
+            "a": 1,
+            "b": 30,
+            "c": 0,
+            "value": "1000002"
+          },
+          {
+            "a": 2,
+            "b": 60,
+            "c": 0,
+            "value": "1000002"
+          }
+        ]
+      },
+      {
+        "U": "column-major",
+        "V": "column-major",
+        "W": "column-major",
+        "residual_count_mod_1000003": 40838,
+        "sample": [
+          {
+            "a": 1,
+            "b": 30,
+            "c": 0,
+            "value": "1000002"
+          },
+          {
+            "a": 2,
+            "b": 60,
+            "c": 0,
+            "value": "1000002"
+          }
+        ]
+      }
+    ],
+    "domains": {
+      "F1000003": {
+        "method": "direct coefficient reduction",
+        "residual_count": 28098,
+        "sample": [
+          {
+            "a": 24,
+            "b": 729,
+            "c": 9,
+            "value": "1000002"
+          },
+          {
+            "a": 25,
+            "b": 759,
+            "c": 9,
+            "value": "1000002"
+          },
+          {
+            "a": 26,
+            "b": 789,
+            "c": 9,
+            "value": "1000002"
+          },
+          {
+            "a": 24,
+            "b": 639,
+            "c": 9,
+            "value": "500002"
+          }
+        ]
+      },
+      "F1000033": {
+        "method": "direct coefficient reduction",
+        "residual_count": 28098,
+        "sample": [
+          {
+            "a": 24,
+            "b": 729,
+            "c": 9,
+            "value": "1000032"
+          },
+          {
+            "a": 25,
+            "b": 759,
+            "c": 9,
+            "value": "1000032"
+          },
+          {
+            "a": 26,
+            "b": 789,
+            "c": 9,
+            "value": "1000032"
+          },
+          {
+            "a": 24,
+            "b": 639,
+            "c": 9,
+            "value": "500017"
+          }
+        ]
+      },
+      "F1000037": {
+        "method": "direct coefficient reduction",
+        "residual_count": 28098,
+        "sample": [
+          {
+            "a": 24,
+            "b": 729,
+            "c": 9,
+            "value": "1000036"
+          },
+          {
+            "a": 25,
+            "b": 759,
+            "c": 9,
+            "value": "1000036"
+          },
+          {
+            "a": 26,
+            "b": 789,
+            "c": 9,
+            "value": "1000036"
+          },
+          {
+            "a": 24,
+            "b": 639,
+            "c": 9,
+            "value": "500019"
+          }
+        ]
+      },
+      "F2": {
+        "direct_reduction": "UNDEFINED: a coefficient denominator is non-invertible",
+        "method": "primitive integral residual after clearing global denominator 70",
+        "residual_count": 576,
+        "sample": [
+          [
+            24,
+            639,
+            9,
+            1
+          ],
+          [
+            24,
+            645,
+            9,
+            1
+          ],
+          [
+            25,
+            669,
+            9,
+            1
+          ],
+          [
+            25,
+            675,
+            9,
+            1
+          ]
+        ]
+      },
+      "F3": {
+        "method": "direct coefficient reduction",
+        "residual_count": 15786,
+        "sample": [
+          {
+            "a": 24,
+            "b": 729,
+            "c": 9,
+            "value": "2"
+          },
+          {
+            "a": 25,
+            "b": 759,
+            "c": 9,
+            "value": "2"
+          },
+          {
+            "a": 26,
+            "b": 789,
+            "c": 9,
+            "value": "2"
+          },
+          {
+            "a": 24,
+            "b": 639,
+            "c": 9,
+            "value": "2"
+          }
+        ]
+      }
+    },
+    "exhausted": true,
+    "index_base": "Matrix entries are positional; raw A_i_j/B_i_j labels are checked 1-based and converted once. A 0-based reading contains out-of-range labels.",
+    "output_transpose": "covered explicitly by W row/column-major cases",
+    "s3_axis_permutations": {
+      "count": 6,
+      "reason": "simultaneous tensor-axis permutation is a coordinate bijection and preserves nonzero residual support cardinality",
+      "residual_nonzero_preserved": true
+    },
+    "sign_conventions": "all rank-one factor sign moves with product +1 are gauge-equivalent; product -1 changes P to -P and cannot cancel a nonzero T-P residual",
+    "status": "PASS",
+    "tensor_lrp_factor_identity": true
+  },
+  "environment": {
+    "platform": "macOS-26.3.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6"
+  },
+  "generated_at": "2026-08-30T16:32:30.841361+00:00",
+  "known_benchmarks": {
+    "benchmark_A_rank3744": "FAIL",
+    "benchmark_B_pan_pair": [
+      {
+        "gain_vs_naive": -4,
+        "mixed_product_count": 4,
+        "parameters": [
+          2,
+          1,
+          2
+        ],
+        "rank": 12,
+        "residual_count": 0,
+        "residual_sample": [],
+        "status": "PASS"
+      },
+      {
+        "gain_vs_naive": -3,
+        "mixed_product_count": 18,
+        "parameters": [
+          3,
+          2,
+          3
+        ],
+        "rank": 39,
+        "residual_count": 0,
+        "residual_sample": [],
+        "status": "PASS"
+      },
+      {
+        "gain_vs_naive": 0,
+        "mixed_product_count": 32,
+        "parameters": [
+          4,
+          2,
+          4
+        ],
+        "rank": 64,
+        "residual_count": 0,
+        "residual_sample": [],
+        "status": "PASS"
+      },
+      {
+        "gain_vs_naive": 5,
+        "mixed_product_count": 50,
+        "parameters": [
+          5,
+          2,
+          5
+        ],
+        "rank": 95,
+        "residual_count": 0,
+        "residual_sample": [],
+        "status": "PASS"
+      }
+    ],
+    "benchmark_C_rank48": {
+      "contact_localization": "GLOBAL_UNCLASSIFIED",
+      "kron_rank_census": {
+        "1x1x2": 4,
+        "1x2x1": 4,
+        "2x1x1": 4,
+        "2x1x2": 4,
+        "2x2x1": 4,
+        "2x2x2": 8,
+        "2x2x4": 4,
+        "2x3x3": 4,
+        "2x4x1": 2,
+        "2x4x2": 2,
+        "4x1x2": 4,
+        "4x2x1": 4
+      },
+      "plain_slot_products": 0,
+      "rank48": {
+        "coordinates_checked": 4096,
+        "exact": true,
+        "logical_tensor_coordinates": 4096,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 48,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          4,
+          4,
+          4
+        ],
+        "status": "PASS"
+      },
+      "source_sha256": "4623fdb32a4af5f564c38ee03918f9e4ca94cada4af2b69dd2db4fb3d8488c44",
+      "status": "PASS",
+      "strassen_squared": {
+        "coordinates_checked": 4096,
+        "exact": true,
+        "logical_tensor_coordinates": 4096,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 49,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          4,
+          4,
+          4
+        ],
+        "status": "PASS"
+      },
+      "strassen_squared_rank": 49,
+      "strict_gain": 1
+    },
+    "status": "FAIL"
+  },
+  "novel_search": {
+    "attempts": [
+      {
+        "backend": "exact local flip/meta-flip",
+        "candidates": [],
+        "failure_reason": "No verified improving move in the deterministic one-move neighbourhood.",
+        "input_products": 0,
+        "operators": [
+          "tensor-preserving flip",
+          "rank-one merge"
+        ],
+        "residual_sha256": "fd10d9c15885f9b4a0306489a14db71f1f023ad0cebd840984e62093cfffc493",
+        "seed": 1701,
+        "status": "COMPLETED_NO_CANDIDATE"
+      },
+      {
+        "backend": "finite-field SAT",
+        "candidates": [],
+        "field": 2,
+        "rank_budget": 8,
+        "scope": "No UNSAT claim",
+        "search_space": "Brent equations over the declared residual support",
+        "seconds": 9.5367431640625e-07,
+        "seed": 1702,
+        "status": "NOT_RUN_NO_SAT_SOLVER"
+      },
+      {
+        "backend": "exact residual solver",
+        "checkpoint": "/Users/djf/develop/CS/Turing/Turing3/results/checkpoints/residual_solver.json",
+        "lower_bound": 54,
+        "rank_budget": 8,
+        "seed": 1703,
+        "status": "PROVED_IMPOSSIBLE_BY_FLATTENING"
+      }
+    ],
+    "new_exponent": false,
+    "new_parameterized_constructor": false,
+    "new_verified_rank": false,
+    "novel_contact": false,
+    "reason": "No exact verified candidate; SAT backend unavailable and flattening excludes rank <=8 for the tested local residual.",
+    "status": "FAIL"
+  },
+  "novelty_boundary": "The raw-3825 explanation and truncation-8 falsification are forensic results. Rank 29, rank 48, Pan TA, tensor flattening bounds, and subadditivity are prior art. No new rank, identity, constructor, or exponent is claimed.",
+  "project": "GermSynth-CR",
+  "rank3744": {
+    "analysis": {
+      "available_pair_count": 0,
+      "factor_direction_pairs": {
+        "U": [
+          [
+            31,
+            47
+          ],
+          [
+            36,
+            48
+          ],
+          [
+            216,
+            234
+          ],
+          [
+            220,
+            232
+          ],
+          [
+            223,
+            231
+          ],
+          [
+            225,
+            230
+          ]
+        ],
+        "V": [],
+        "W": []
+      },
+      "preconditions_met": false,
+      "required_4x3x3_factor_dimensions": [
+        12,
+        9,
+        12
+      ],
+      "required_shared_factor_for_4x3x3": "V",
+      "shared_U_local_factor_dimensions": [
+        6,
+        18,
+        12
+      ]
+    },
+    "reason": "trusted outer scheme has no six shared-V pairs",
+    "status": "FAIL"
+  },
+  "raw_3825": {
+    "classification": "OTHER_VERSION_ALGORITHM",
+    "conclusion": "3825 is the true rank of a valid, separate, older evaluation program; it is not an optimized encoding of 3736 or 3744.",
+    "constant_multiplications": 0,
+    "exact_verification": {
+      "coordinates_checked": 41990400,
+      "exact": true,
+      "logical_tensor_coordinates": 41990400,
+      "modular_screens": [
+        {
+          "prime": 1000003,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000033,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000037,
+          "residual_count": 0,
+          "sample": []
+        }
+      ],
+      "rank": 3825,
+      "residual_count": 0,
+      "residual_sample": [],
+      "shape": [
+        8,
+        27,
+        30
+      ],
+      "status": "PASS"
+    },
+    "last_modified": "Wed, 23 Nov 2022 14:32:31 GMT",
+    "output_count": 240,
+    "product_audit": {
+      "cancelling_groups": [],
+      "directly_mergeable_groups": [],
+      "proportional_groups": [],
+      "zero_product_ids": []
+    },
+    "semantic_bilinear_product_count": 3825,
+    "status": "PASS",
+    "temporary_variables": 0,
+    "textual_m_assignment_count": 3825,
+    "unexecuted_multiplications": 0
+  },
+  "residual_autopsy": {
+    "axis_support": [
+      [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        24,
+        25,
+        26,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        54,
+        55,
+        56,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        375,
+        376,
+        377,
+        381,
+        382,
+        383,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        405,
+        406,
+        407,
+        411,
+        412,
+        413,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        435,
+        436,
+        437,
+        441,
+        442,
+        443,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        459,
+        460,
+        461,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        489,
+        490,
+        491,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        519,
+        520,
+        521,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        564,
+        565,
+        566,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        594,
+        595,
+        596,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        624,
+        625,
+        626,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        729,
+        730,
+        731,
+        735,
+        736,
+        737,
+        741,
+        742,
+        743,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        759,
+        760,
+        761,
+        765,
+        766,
+        767,
+        771,
+        772,
+        773,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        789,
+        790,
+        791,
+        795,
+        796,
+        797,
+        801,
+        802,
+        803
+      ],
+      [
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        39,
+        40,
+        41,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        123,
+        124,
+        125,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        153,
+        154,
+        155,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        180,
+        181,
+        182,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ]
+    ],
+    "axis_support_sizes": [
+      126,
+      594,
+      96
+    ],
+    "coefficient_distribution": {
+      "-1": 1944,
+      "-1/2": 270,
+      "-1/5": 360,
+      "-1/7": 432,
+      "-3/7": 6048,
+      "-4/5": 144,
+      "-4/7": 4536,
+      "-6/7": 126,
+      "1": 2322,
+      "1/2": 288,
+      "1/5": 360,
+      "1/7": 450,
+      "3/2": 18,
+      "3/7": 6048,
+      "4/5": 144,
+      "4/7": 4536,
+      "6/5": 72
+    },
+    "components": [
+      {
+        "classification": "invalid or parent-dependent kernel",
+        "flattening_lower_bound": 9,
+        "flattening_ranks": [
+          6,
+          9,
+          6
+        ],
+        "fusion_gain": 1,
+        "isolated_rank": 30,
+        "product_count": 29,
+        "product_ids": [
+          3684,
+          3685,
+          3686,
+          3687,
+          3688,
+          3689,
+          3690,
+          3691,
+          3692,
+          3693,
+          3694,
+          3695,
+          3696,
+          3697,
+          3698,
+          3699,
+          3700,
+          3701,
+          3702,
+          3703,
+          3704,
+          3705,
+          3706,
+          3707,
+          3708,
+          3709,
+          3710,
+          3711,
+          3712
+        ],
+        "residual_count": 2232,
+        "residual_sample": [
+          {
+            "a": 9,
+            "b": 0,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 9,
+            "b": 3,
+            "c": 18,
+            "value": "4/5"
+          },
+          {
+            "a": 9,
+            "b": 6,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 15,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 18,
+            "c": 18,
+            "value": "-4/5"
+          },
+          {
+            "a": 9,
+            "b": 93,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 96,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 189,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 9,
+            "b": 195,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 198,
+            "c": 18,
+            "value": "-6/5"
+          },
+          {
+            "a": 9,
+            "b": 201,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 9,
+            "b": 270,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 9,
+            "b": 273,
+            "c": 18,
+            "value": "4/5"
+          },
+          {
+            "a": 9,
+            "b": 276,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 279,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 9,
+            "b": 285,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 288,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 363,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 366,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 387,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 465,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 468,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 540,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 9,
+            "b": 543,
+            "c": 18,
+            "value": "-4/5"
+          },
+          {
+            "a": 9,
+            "b": 546,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 555,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 9,
+            "b": 633,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 9,
+            "b": 636,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 9,
+            "b": 729,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 9,
+            "b": 735,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 9,
+            "b": 741,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 10,
+            "b": 30,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 10,
+            "b": 33,
+            "c": 18,
+            "value": "4/5"
+          },
+          {
+            "a": 10,
+            "b": 36,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 45,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 48,
+            "c": 18,
+            "value": "-4/5"
+          },
+          {
+            "a": 10,
+            "b": 123,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 126,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 219,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 10,
+            "b": 225,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 228,
+            "c": 18,
+            "value": "-6/5"
+          },
+          {
+            "a": 10,
+            "b": 231,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 10,
+            "b": 300,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 10,
+            "b": 303,
+            "c": 18,
+            "value": "4/5"
+          },
+          {
+            "a": 10,
+            "b": 306,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 309,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 10,
+            "b": 315,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 318,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 393,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 396,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 417,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 495,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 498,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 570,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 10,
+            "b": 573,
+            "c": 18,
+            "value": "-4/5"
+          },
+          {
+            "a": 10,
+            "b": 576,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 585,
+            "c": 18,
+            "value": "-1/5"
+          },
+          {
+            "a": 10,
+            "b": 663,
+            "c": 18,
+            "value": "1"
+          },
+          {
+            "a": 10,
+            "b": 666,
+            "c": 18,
+            "value": "-1"
+          },
+          {
+            "a": 10,
+            "b": 759,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 10,
+            "b": 765,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 10,
+            "b": 771,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 11,
+            "b": 60,
+            "c": 18,
+            "value": "1/5"
+          },
+          {
+            "a": 11,
+            "b": 63,
+            "c": 18,
+            "value": "4/5"
+          }
+        ],
+        "residual_sha256": "c4fc3c981b29ba1dfdb35ac37b62a95d9de8b7314d634cbce5d54cc0608084b1",
+        "slot_count": 2,
+        "slot_ids": [
+          19,
+          238
+        ],
+        "standalone": false
+      },
+      {
+        "classification": "invalid or parent-dependent kernel",
+        "flattening_lower_bound": 9,
+        "flattening_ranks": [
+          6,
+          9,
+          6
+        ],
+        "fusion_gain": 1,
+        "isolated_rank": 30,
+        "product_count": 29,
+        "product_ids": [
+          3631,
+          3632,
+          3633,
+          3634,
+          3635,
+          3636,
+          3637,
+          3641,
+          3642,
+          3643,
+          3644,
+          3645,
+          3646,
+          3647,
+          3654,
+          3655,
+          3713,
+          3714,
+          3715,
+          3716,
+          3717,
+          3718,
+          3719,
+          3720,
+          3721,
+          3722,
+          3723,
+          3724,
+          3725
+        ],
+        "residual_count": 1728,
+        "residual_sample": [
+          {
+            "a": 108,
+            "b": 90,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 108,
+            "b": 93,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 108,
+            "b": 99,
+            "c": 15,
+            "value": "1"
+          },
+          {
+            "a": 108,
+            "b": 105,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 108,
+            "b": 111,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 108,
+            "b": 360,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 108,
+            "b": 363,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 108,
+            "b": 369,
+            "c": 15,
+            "value": "6/7"
+          },
+          {
+            "a": 108,
+            "b": 375,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 108,
+            "b": 381,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 108,
+            "b": 630,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 108,
+            "b": 633,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 109,
+            "b": 120,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 109,
+            "b": 123,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 109,
+            "b": 129,
+            "c": 15,
+            "value": "1"
+          },
+          {
+            "a": 109,
+            "b": 135,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 109,
+            "b": 141,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 109,
+            "b": 390,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 109,
+            "b": 393,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 109,
+            "b": 399,
+            "c": 15,
+            "value": "6/7"
+          },
+          {
+            "a": 109,
+            "b": 405,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 109,
+            "b": 411,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 109,
+            "b": 660,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 109,
+            "b": 663,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 110,
+            "b": 150,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 110,
+            "b": 153,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 110,
+            "b": 159,
+            "c": 15,
+            "value": "1"
+          },
+          {
+            "a": 110,
+            "b": 165,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 110,
+            "b": 171,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 110,
+            "b": 420,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 110,
+            "b": 423,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 110,
+            "b": 429,
+            "c": 15,
+            "value": "6/7"
+          },
+          {
+            "a": 110,
+            "b": 435,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 110,
+            "b": 441,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 110,
+            "b": 690,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 110,
+            "b": 693,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 111,
+            "b": 90,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 111,
+            "b": 93,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 111,
+            "b": 99,
+            "c": 15,
+            "value": "1"
+          },
+          {
+            "a": 111,
+            "b": 105,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 111,
+            "b": 111,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 111,
+            "b": 360,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 111,
+            "b": 363,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 111,
+            "b": 369,
+            "c": 15,
+            "value": "6/7"
+          },
+          {
+            "a": 111,
+            "b": 375,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 111,
+            "b": 381,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 111,
+            "b": 630,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 111,
+            "b": 633,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 112,
+            "b": 120,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 112,
+            "b": 123,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 112,
+            "b": 129,
+            "c": 15,
+            "value": "1"
+          },
+          {
+            "a": 112,
+            "b": 135,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 141,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 390,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 112,
+            "b": 393,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 112,
+            "b": 399,
+            "c": 15,
+            "value": "6/7"
+          },
+          {
+            "a": 112,
+            "b": 405,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 411,
+            "c": 15,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 660,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 112,
+            "b": 663,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 113,
+            "b": 150,
+            "c": 15,
+            "value": "1/7"
+          },
+          {
+            "a": 113,
+            "b": 153,
+            "c": 15,
+            "value": "-1/7"
+          },
+          {
+            "a": 113,
+            "b": 159,
+            "c": 15,
+            "value": "1"
+          },
+          {
+            "a": 113,
+            "b": 165,
+            "c": 15,
+            "value": "-1"
+          }
+        ],
+        "residual_sha256": "8015ac2d23d32f7ad8718e33d11aecc822a3a521adb20bb0eed8b03443e3b7da",
+        "slot_count": 2,
+        "slot_ids": [
+          23,
+          129
+        ],
+        "standalone": false
+      },
+      {
+        "classification": "invalid or parent-dependent kernel",
+        "flattening_lower_bound": 9,
+        "flattening_ranks": [
+          6,
+          9,
+          6
+        ],
+        "fusion_gain": 1,
+        "isolated_rank": 30,
+        "product_count": 29,
+        "product_ids": [
+          3620,
+          3621,
+          3622,
+          3623,
+          3624,
+          3625,
+          3626,
+          3627,
+          3628,
+          3629,
+          3630,
+          3653,
+          3677,
+          3678,
+          3679,
+          3680,
+          3681,
+          3682,
+          3683,
+          3726,
+          3727,
+          3728,
+          3729,
+          3730,
+          3731,
+          3732,
+          3733,
+          3734,
+          3735
+        ],
+        "residual_count": 900,
+        "residual_sample": [
+          {
+            "a": 24,
+            "b": 90,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 93,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 99,
+            "c": 9,
+            "value": "-1/2"
+          },
+          {
+            "a": 24,
+            "b": 108,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 24,
+            "b": 111,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 24,
+            "b": 117,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 180,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 183,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 189,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 360,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 363,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 369,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 450,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 453,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 459,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 630,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 633,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 639,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 24,
+            "b": 645,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 24,
+            "b": 648,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 651,
+            "c": 9,
+            "value": "-1/2"
+          },
+          {
+            "a": 24,
+            "b": 657,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 720,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 24,
+            "b": 723,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 24,
+            "b": 729,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 120,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 123,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 129,
+            "c": 9,
+            "value": "-1/2"
+          },
+          {
+            "a": 25,
+            "b": 138,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 25,
+            "b": 141,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 25,
+            "b": 147,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 210,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 213,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 219,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 390,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 393,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 399,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 480,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 483,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 489,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 660,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 663,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 669,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 25,
+            "b": 675,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 25,
+            "b": 678,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 681,
+            "c": 9,
+            "value": "-1/2"
+          },
+          {
+            "a": 25,
+            "b": 687,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 750,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 25,
+            "b": 753,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 25,
+            "b": 759,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 150,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 26,
+            "b": 153,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 159,
+            "c": 9,
+            "value": "-1/2"
+          },
+          {
+            "a": 26,
+            "b": 168,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 26,
+            "b": 171,
+            "c": 9,
+            "value": "1/2"
+          },
+          {
+            "a": 26,
+            "b": 177,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 240,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 243,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 26,
+            "b": 249,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 26,
+            "b": 420,
+            "c": 9,
+            "value": "1"
+          },
+          {
+            "a": 26,
+            "b": 423,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 429,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 510,
+            "c": 9,
+            "value": "-1"
+          },
+          {
+            "a": 26,
+            "b": 513,
+            "c": 9,
+            "value": "1"
+          }
+        ],
+        "residual_sha256": "45d88af1388582a02f56b9f15921bac12c4cea105696e409b589f4710972b0a6",
+        "slot_count": 2,
+        "slot_ids": [
+          25,
+          202
+        ],
+        "standalone": false
+      },
+      {
+        "classification": "invalid or parent-dependent kernel",
+        "flattening_lower_bound": 9,
+        "flattening_ranks": [
+          6,
+          9,
+          6
+        ],
+        "fusion_gain": 1,
+        "isolated_rank": 30,
+        "product_count": 29,
+        "product_ids": [
+          3611,
+          3612,
+          3613,
+          3614,
+          3615,
+          3616,
+          3617,
+          3618,
+          3619,
+          3638,
+          3639,
+          3640,
+          3648,
+          3649,
+          3650,
+          3651,
+          3652,
+          3658,
+          3659,
+          3660,
+          3661,
+          3662,
+          3663,
+          3664,
+          3665,
+          3666,
+          3667,
+          3668,
+          3669
+        ],
+        "residual_count": 21168,
+        "residual_sample": [
+          {
+            "a": 54,
+            "b": 96,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 54,
+            "b": 102,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 54,
+            "b": 186,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 54,
+            "b": 192,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 54,
+            "b": 360,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 54,
+            "b": 363,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 54,
+            "b": 369,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 54,
+            "b": 450,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 54,
+            "b": 453,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 54,
+            "b": 459,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 54,
+            "b": 630,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 54,
+            "b": 633,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 54,
+            "b": 720,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 54,
+            "b": 723,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 55,
+            "b": 126,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 55,
+            "b": 132,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 55,
+            "b": 216,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 55,
+            "b": 222,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 55,
+            "b": 390,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 55,
+            "b": 393,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 55,
+            "b": 399,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 55,
+            "b": 480,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 55,
+            "b": 483,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 55,
+            "b": 489,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 55,
+            "b": 660,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 55,
+            "b": 663,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 55,
+            "b": 750,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 55,
+            "b": 753,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 56,
+            "b": 156,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 56,
+            "b": 162,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 56,
+            "b": 246,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 56,
+            "b": 252,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 56,
+            "b": 420,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 56,
+            "b": 423,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 56,
+            "b": 429,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 56,
+            "b": 510,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 56,
+            "b": 513,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 56,
+            "b": 519,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 56,
+            "b": 690,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 56,
+            "b": 693,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 56,
+            "b": 780,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 56,
+            "b": 783,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 57,
+            "b": 96,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 57,
+            "b": 102,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 57,
+            "b": 186,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 57,
+            "b": 192,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 57,
+            "b": 360,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 57,
+            "b": 363,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 57,
+            "b": 369,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 57,
+            "b": 450,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 57,
+            "b": 453,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 57,
+            "b": 459,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 57,
+            "b": 630,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 57,
+            "b": 633,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 57,
+            "b": 720,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 57,
+            "b": 723,
+            "c": 180,
+            "value": "4/7"
+          },
+          {
+            "a": 58,
+            "b": 126,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 58,
+            "b": 132,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 58,
+            "b": 216,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 58,
+            "b": 222,
+            "c": 180,
+            "value": "-4/7"
+          },
+          {
+            "a": 58,
+            "b": 390,
+            "c": 180,
+            "value": "-3/7"
+          },
+          {
+            "a": 58,
+            "b": 393,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 58,
+            "b": 399,
+            "c": 180,
+            "value": "3/7"
+          },
+          {
+            "a": 58,
+            "b": 480,
+            "c": 180,
+            "value": "4/7"
+          }
+        ],
+        "residual_sha256": "55b022f7ac8b86bcc778dffe6909e1976aaec8a3f56c2cabaa3189c39c907981",
+        "slot_count": 2,
+        "slot_ids": [
+          42,
+          48
+        ],
+        "standalone": false
+      },
+      {
+        "classification": "invalid or parent-dependent kernel",
+        "flattening_lower_bound": 9,
+        "flattening_ranks": [
+          6,
+          9,
+          6
+        ],
+        "fusion_gain": 1,
+        "isolated_rank": 30,
+        "product_count": 29,
+        "product_ids": [
+          3582,
+          3583,
+          3584,
+          3585,
+          3586,
+          3587,
+          3588,
+          3589,
+          3590,
+          3591,
+          3592,
+          3593,
+          3594,
+          3595,
+          3596,
+          3597,
+          3598,
+          3599,
+          3600,
+          3601,
+          3602,
+          3603,
+          3604,
+          3605,
+          3606,
+          3607,
+          3608,
+          3609,
+          3610
+        ],
+        "residual_count": 1260,
+        "residual_sample": [
+          {
+            "a": 12,
+            "b": 105,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 12,
+            "b": 108,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 12,
+            "b": 111,
+            "c": 21,
+            "value": "1/2"
+          },
+          {
+            "a": 12,
+            "b": 369,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 12,
+            "b": 375,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 12,
+            "b": 381,
+            "c": 21,
+            "value": "-1/2"
+          },
+          {
+            "a": 12,
+            "b": 471,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 13,
+            "b": 135,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 13,
+            "b": 138,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 13,
+            "b": 141,
+            "c": 21,
+            "value": "1/2"
+          },
+          {
+            "a": 13,
+            "b": 399,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 13,
+            "b": 405,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 13,
+            "b": 411,
+            "c": 21,
+            "value": "-1/2"
+          },
+          {
+            "a": 13,
+            "b": 501,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 14,
+            "b": 165,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 14,
+            "b": 168,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 14,
+            "b": 171,
+            "c": 21,
+            "value": "1/2"
+          },
+          {
+            "a": 14,
+            "b": 429,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 14,
+            "b": 435,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 14,
+            "b": 441,
+            "c": 21,
+            "value": "-1/2"
+          },
+          {
+            "a": 14,
+            "b": 531,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 111,
+            "b": 105,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 111,
+            "b": 108,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 111,
+            "b": 111,
+            "c": 21,
+            "value": "-1/2"
+          },
+          {
+            "a": 111,
+            "b": 369,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 111,
+            "b": 375,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 111,
+            "b": 381,
+            "c": 21,
+            "value": "1/2"
+          },
+          {
+            "a": 111,
+            "b": 471,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 135,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 112,
+            "b": 138,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 141,
+            "c": 21,
+            "value": "-1/2"
+          },
+          {
+            "a": 112,
+            "b": 399,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 112,
+            "b": 405,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 112,
+            "b": 411,
+            "c": 21,
+            "value": "1/2"
+          },
+          {
+            "a": 112,
+            "b": 501,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 113,
+            "b": 165,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 113,
+            "b": 168,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 113,
+            "b": 171,
+            "c": 21,
+            "value": "-1/2"
+          },
+          {
+            "a": 113,
+            "b": 429,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 113,
+            "b": 435,
+            "c": 21,
+            "value": "1"
+          },
+          {
+            "a": 113,
+            "b": 441,
+            "c": 21,
+            "value": "1/2"
+          },
+          {
+            "a": 113,
+            "b": 531,
+            "c": 21,
+            "value": "-1"
+          },
+          {
+            "a": 12,
+            "b": 106,
+            "c": 22,
+            "value": "-1"
+          },
+          {
+            "a": 12,
+            "b": 109,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 12,
+            "b": 112,
+            "c": 22,
+            "value": "1/2"
+          },
+          {
+            "a": 12,
+            "b": 370,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 12,
+            "b": 376,
+            "c": 22,
+            "value": "-1"
+          },
+          {
+            "a": 12,
+            "b": 382,
+            "c": 22,
+            "value": "-1/2"
+          },
+          {
+            "a": 12,
+            "b": 472,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 13,
+            "b": 136,
+            "c": 22,
+            "value": "-1"
+          },
+          {
+            "a": 13,
+            "b": 139,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 13,
+            "b": 142,
+            "c": 22,
+            "value": "1/2"
+          },
+          {
+            "a": 13,
+            "b": 400,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 13,
+            "b": 406,
+            "c": 22,
+            "value": "-1"
+          },
+          {
+            "a": 13,
+            "b": 412,
+            "c": 22,
+            "value": "-1/2"
+          },
+          {
+            "a": 13,
+            "b": 502,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 14,
+            "b": 166,
+            "c": 22,
+            "value": "-1"
+          },
+          {
+            "a": 14,
+            "b": 169,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 14,
+            "b": 172,
+            "c": 22,
+            "value": "1/2"
+          },
+          {
+            "a": 14,
+            "b": 430,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 14,
+            "b": 436,
+            "c": 22,
+            "value": "-1"
+          },
+          {
+            "a": 14,
+            "b": 442,
+            "c": 22,
+            "value": "-1/2"
+          },
+          {
+            "a": 14,
+            "b": 532,
+            "c": 22,
+            "value": "1"
+          },
+          {
+            "a": 111,
+            "b": 106,
+            "c": 22,
+            "value": "1"
+          }
+        ],
+        "residual_sha256": "3500188c5dc89916b38bc220f682575213a5b278107e4dc6851afb622d8c4822",
+        "slot_count": 2,
+        "slot_ids": [
+          138,
+          175
+        ],
+        "standalone": false
+      },
+      {
+        "classification": "invalid or parent-dependent kernel",
+        "flattening_lower_bound": 9,
+        "flattening_ranks": [
+          6,
+          9,
+          6
+        ],
+        "fusion_gain": 9,
+        "isolated_rank": 30,
+        "product_count": 21,
+        "product_ids": [
+          3570,
+          3571,
+          3572,
+          3573,
+          3574,
+          3575,
+          3576,
+          3577,
+          3578,
+          3579,
+          3580,
+          3581,
+          3656,
+          3657,
+          3670,
+          3671,
+          3672,
+          3673,
+          3674,
+          3675,
+          3676
+        ],
+        "residual_count": 936,
+        "residual_sample": [
+          {
+            "a": 63,
+            "b": 6,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 63,
+            "b": 12,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 63,
+            "b": 24,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 63,
+            "b": 276,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 63,
+            "b": 282,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 63,
+            "b": 288,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 63,
+            "b": 291,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 63,
+            "b": 294,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 63,
+            "b": 546,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 63,
+            "b": 552,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 63,
+            "b": 555,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 63,
+            "b": 558,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 63,
+            "b": 564,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 36,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 42,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 54,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 64,
+            "b": 306,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 312,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 318,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 321,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 64,
+            "b": 324,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 64,
+            "b": 576,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 64,
+            "b": 582,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 64,
+            "b": 585,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 64,
+            "b": 588,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 64,
+            "b": 594,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 66,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 72,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 84,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 65,
+            "b": 336,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 342,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 348,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 351,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 65,
+            "b": 354,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 65,
+            "b": 606,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 65,
+            "b": 612,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 65,
+            "b": 615,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 65,
+            "b": 618,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 65,
+            "b": 624,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 6,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 12,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 24,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 66,
+            "b": 276,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 282,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 288,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 291,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 66,
+            "b": 294,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 66,
+            "b": 546,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 66,
+            "b": 552,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 66,
+            "b": 555,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 66,
+            "b": 558,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 66,
+            "b": 564,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 36,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 42,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 54,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 67,
+            "b": 306,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 312,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 318,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 321,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 67,
+            "b": 324,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 67,
+            "b": 576,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 67,
+            "b": 582,
+            "c": 198,
+            "value": "-1"
+          },
+          {
+            "a": 67,
+            "b": 585,
+            "c": 198,
+            "value": "1"
+          },
+          {
+            "a": 67,
+            "b": 588,
+            "c": 198,
+            "value": "-1"
+          }
+        ],
+        "residual_sha256": "469f787b1675ebb7ecc7cbae608a3dca65e8fb2cbe8eb8462d0d26f4709e1c62",
+        "slot_count": 2,
+        "slot_ids": [
+          187,
+          223
+        ],
+        "standalone": false
+      }
+    ],
+    "connected_support_components": [
+      {
+        "axis_support": [
+          [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            24,
+            25,
+            26,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            24,
+            25,
+            26,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            54,
+            55,
+            56,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            84,
+            85,
+            86,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369,
+            370,
+            371,
+            375,
+            376,
+            377,
+            381,
+            382,
+            383,
+            387,
+            388,
+            389,
+            390,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
+            397,
+            398,
+            399,
+            400,
+            401,
+            405,
+            406,
+            407,
+            411,
+            412,
+            413,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423,
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            435,
+            436,
+            437,
+            441,
+            442,
+            443,
+            447,
+            448,
+            449,
+            450,
+            451,
+            452,
+            453,
+            454,
+            455,
+            459,
+            460,
+            461,
+            465,
+            466,
+            467,
+            468,
+            469,
+            470,
+            471,
+            472,
+            473,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            489,
+            490,
+            491,
+            495,
+            496,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            510,
+            511,
+            512,
+            513,
+            514,
+            515,
+            519,
+            520,
+            521,
+            525,
+            526,
+            527,
+            528,
+            529,
+            530,
+            531,
+            532,
+            533,
+            540,
+            541,
+            542,
+            543,
+            544,
+            545,
+            546,
+            547,
+            548,
+            552,
+            553,
+            554,
+            555,
+            556,
+            557,
+            558,
+            559,
+            560,
+            564,
+            565,
+            566,
+            570,
+            571,
+            572,
+            573,
+            574,
+            575,
+            576,
+            577,
+            578,
+            582,
+            583,
+            584,
+            585,
+            586,
+            587,
+            588,
+            589,
+            590,
+            594,
+            595,
+            596,
+            600,
+            601,
+            602,
+            603,
+            604,
+            605,
+            606,
+            607,
+            608,
+            612,
+            613,
+            614,
+            615,
+            616,
+            617,
+            618,
+            619,
+            620,
+            624,
+            625,
+            626,
+            630,
+            631,
+            632,
+            633,
+            634,
+            635,
+            636,
+            637,
+            638,
+            639,
+            640,
+            641,
+            645,
+            646,
+            647,
+            648,
+            649,
+            650,
+            651,
+            652,
+            653,
+            657,
+            658,
+            659,
+            660,
+            661,
+            662,
+            663,
+            664,
+            665,
+            666,
+            667,
+            668,
+            669,
+            670,
+            671,
+            675,
+            676,
+            677,
+            678,
+            679,
+            680,
+            681,
+            682,
+            683,
+            687,
+            688,
+            689,
+            690,
+            691,
+            692,
+            693,
+            694,
+            695,
+            696,
+            697,
+            698,
+            699,
+            700,
+            701,
+            705,
+            706,
+            707,
+            708,
+            709,
+            710,
+            711,
+            712,
+            713,
+            717,
+            718,
+            719,
+            720,
+            721,
+            722,
+            723,
+            724,
+            725,
+            729,
+            730,
+            731,
+            735,
+            736,
+            737,
+            741,
+            742,
+            743,
+            750,
+            751,
+            752,
+            753,
+            754,
+            755,
+            759,
+            760,
+            761,
+            765,
+            766,
+            767,
+            771,
+            772,
+            773,
+            780,
+            781,
+            782,
+            783,
+            784,
+            785,
+            789,
+            790,
+            791,
+            795,
+            796,
+            797,
+            801,
+            802,
+            803
+          ],
+          [
+            9,
+            10,
+            11,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            39,
+            40,
+            41,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            123,
+            124,
+            125,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            153,
+            154,
+            155,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            180,
+            181,
+            182,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239
+          ]
+        ],
+        "nonzero_count": 28098
+      }
+    ],
+    "direct_counterexample": {
+      "coordinate": [
+        24,
+        729,
+        9
+      ],
+      "expected_minus_actual": "1",
+      "meaning": "A[1,25] * B[25,10] -> C[1,10]",
+      "pass": true
+    },
+    "exceptional_slots": [
+      19,
+      23,
+      25,
+      42,
+      48,
+      129,
+      138,
+      175,
+      187,
+      202,
+      223,
+      238
+    ],
+    "field": "Q",
+    "flattening_lower_bound": 54,
+    "flattening_ranks": [
+      36,
+      54,
+      36
+    ],
+    "nonzero_count": 28098,
+    "ordinary_products": 3570,
+    "ordinary_slots": 238,
+    "residual_sha256": "fd10d9c15885f9b4a0306489a14db71f1f023ad0cebd840984e62093cfffc493",
+    "residual_stream": "certificates/residual_8x27x30_rank3736.jsonl",
+    "status": "PASS",
+    "truncation_8": {
+      "actual_product_count": 21,
+      "automatic_product_ids": [
+        3570,
+        3571,
+        3572,
+        3573,
+        3574,
+        3575,
+        3576,
+        3577,
+        3578,
+        3579,
+        3580,
+        3581,
+        3656,
+        3657,
+        3670,
+        3671,
+        3672,
+        3673,
+        3674,
+        3675,
+        3676
+      ],
+      "automatic_slot_ids": [
+        187,
+        223
+      ],
+      "basis_alignment": "IMPOSSIBLE_BY_FACTOR_DIMENSIONS",
+      "claimed_missing_count": 8,
+      "completion_rank": "UNKNOWN",
+      "completion_rank_lower_bound": 9,
+      "completion_rank_upper_bound": 51,
+      "eight_term_completion_impossible": true,
+      "flattening_lower_bound": 9,
+      "flattening_ranks": [
+        6,
+        9,
+        6
+      ],
+      "hypothesis": "the 21-term component is a 29-term <4,3,3> scheme missing eight terms",
+      "local_nonzero_count": 936,
+      "local_residual_sha256": "469f787b1675ebb7ecc7cbae608a3dca65e8fb2cbe8eb8462d0d26f4709e1c62",
+      "public_4x3x3_factor_dimensions": [
+        12,
+        9,
+        12
+      ],
+      "recovered_pair_ambient_factor_dimensions": [
+        12,
+        18,
+        12
+      ],
+      "status": "FAIL"
+    }
+  },
+  "source_forensics": {
+    "content_hash_comparison": {
+      "tensor_vs_lrp": "IDENTICAL_FACTORS",
+      "tensor_vs_raw": "DIFFERENT_CONTENT_AND_RANK"
+    },
+    "parent": {
+      "current_page_bytes": 42379,
+      "current_representation_ranks": {
+        "LRP": 3736,
+        "Tensor": 3736,
+        "page": 3744,
+        "raw": 3825
+      },
+      "lrp": {
+        "exact": false,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 28098,
+            "sample": [
+              {
+                "a": 24,
+                "b": 729,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 25,
+                "b": 759,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 26,
+                "b": 789,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 24,
+                "b": 639,
+                "c": 9,
+                "value": "500002"
+              },
+              {
+                "a": 24,
+                "b": 645,
+                "c": 9,
+                "value": "500002"
+              },
+              {
+                "a": 24,
+                "b": 648,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 24,
+                "b": 657,
+                "c": 9,
+                "value": "1"
+              },
+              {
+                "a": 25,
+                "b": 669,
+                "c": 9,
+                "value": "500002"
+              }
+            ]
+          }
+        ],
+        "reason": "nonzero residual modulo 1000003",
+        "status": "FAIL"
+      },
+      "lrp_rank": 3736,
+      "matmulcatalog_page_metadata_raw_len": 25276,
+      "matmulcatalog_saved_artifact": "ABSENT: paper text references the URL but the 3736 factor file is not committed",
+      "raw": {
+        "coordinates_checked": 41990400,
+        "exact": true,
+        "logical_tensor_coordinates": 41990400,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 3825,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          8,
+          27,
+          30
+        ],
+        "status": "PASS"
+      },
+      "raw_semantic_rank": 3825,
+      "tensor": {
+        "exact": false,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 28098,
+            "sample": [
+              {
+                "a": 24,
+                "b": 729,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 25,
+                "b": 759,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 26,
+                "b": 789,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 24,
+                "b": 639,
+                "c": 9,
+                "value": "500002"
+              },
+              {
+                "a": 24,
+                "b": 645,
+                "c": 9,
+                "value": "500002"
+              },
+              {
+                "a": 24,
+                "b": 648,
+                "c": 9,
+                "value": "1000002"
+              },
+              {
+                "a": 24,
+                "b": 657,
+                "c": 9,
+                "value": "1"
+              },
+              {
+                "a": 25,
+                "b": 669,
+                "c": 9,
+                "value": "500002"
+              }
+            ]
+          }
+        ],
+        "reason": "nonzero residual modulo 1000003",
+        "status": "FAIL"
+      },
+      "tensor_lrp_factor_identity": true,
+      "tensor_rank": 3736
+    },
+    "positive_controls": [
+      {
+        "lrp": {
+          "coordinates_checked": 64,
+          "exact": true,
+          "logical_tensor_coordinates": 64,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 7,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            2,
+            2,
+            2
+          ],
+          "status": "PASS"
+        },
+        "lrp_rank": 7,
+        "raw": {
+          "coordinates_checked": 64,
+          "exact": true,
+          "logical_tensor_coordinates": 64,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 7,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            2,
+            2,
+            2
+          ],
+          "status": "PASS"
+        },
+        "raw_rank": 7,
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "tensor": {
+          "coordinates_checked": 64,
+          "exact": true,
+          "logical_tensor_coordinates": 64,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 7,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            2,
+            2,
+            2
+          ],
+          "status": "PASS"
+        },
+        "tensor_lrp_factor_identity": true,
+        "tensor_rank": 7
+      },
+      {
+        "lrp": {
+          "coordinates_checked": 324,
+          "exact": true,
+          "logical_tensor_coordinates": 324,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 15,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            2,
+            3,
+            3
+          ],
+          "status": "PASS"
+        },
+        "lrp_rank": 15,
+        "raw": {
+          "coordinates_checked": 324,
+          "exact": true,
+          "logical_tensor_coordinates": 324,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 15,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            2,
+            3,
+            3
+          ],
+          "status": "PASS"
+        },
+        "raw_rank": 15,
+        "shape": [
+          2,
+          3,
+          3
+        ],
+        "tensor": {
+          "coordinates_checked": 324,
+          "exact": true,
+          "logical_tensor_coordinates": 324,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 15,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            2,
+            3,
+            3
+          ],
+          "status": "PASS"
+        },
+        "tensor_lrp_factor_identity": true,
+        "tensor_rank": 15
+      },
+      {
+        "lrp": {
+          "coordinates_checked": 1296,
+          "exact": true,
+          "logical_tensor_coordinates": 1296,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 29,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            3,
+            3,
+            4
+          ],
+          "status": "PASS"
+        },
+        "lrp_rank": 29,
+        "raw": {
+          "coordinates_checked": 1296,
+          "exact": true,
+          "logical_tensor_coordinates": 1296,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 29,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            3,
+            3,
+            4
+          ],
+          "status": "PASS"
+        },
+        "raw_rank": 29,
+        "shape": [
+          3,
+          3,
+          4
+        ],
+        "tensor": {
+          "coordinates_checked": 1296,
+          "exact": true,
+          "logical_tensor_coordinates": 1296,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 29,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            3,
+            3,
+            4
+          ],
+          "status": "PASS"
+        },
+        "tensor_lrp_factor_identity": true,
+        "tensor_rank": 29
+      },
+      {
+        "lrp": {
+          "coordinates_checked": 129600,
+          "exact": true,
+          "logical_tensor_coordinates": 129600,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 250,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            4,
+            9,
+            10
+          ],
+          "status": "PASS"
+        },
+        "lrp_rank": 250,
+        "raw": {
+          "coordinates_checked": 129600,
+          "exact": true,
+          "logical_tensor_coordinates": 129600,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 255,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            4,
+            9,
+            10
+          ],
+          "status": "PASS"
+        },
+        "raw_rank": 255,
+        "shape": [
+          4,
+          9,
+          10
+        ],
+        "tensor": {
+          "coordinates_checked": 129600,
+          "exact": true,
+          "logical_tensor_coordinates": 129600,
+          "modular_screens": [
+            {
+              "prime": 1000003,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000033,
+              "residual_count": 0,
+              "sample": []
+            },
+            {
+              "prime": 1000037,
+              "residual_count": 0,
+              "sample": []
+            }
+          ],
+          "rank": 250,
+          "residual_count": 0,
+          "residual_sample": [],
+          "shape": [
+            4,
+            9,
+            10
+          ],
+          "status": "PASS"
+        },
+        "tensor_lrp_factor_identity": true,
+        "tensor_rank": 250
+      }
+    ],
+    "reason": "history service unavailable and current source representations are mutually inconsistent",
+    "status": "FAIL"
+  },
+  "statuses": {
+    "BASELINE_REPRODUCTION": "PASS",
+    "CONTACT_COMPILER_PASS": "FAIL",
+    "CXX_INDEPENDENT_VERIFICATION": "FAIL",
+    "GITHUB_PUSH": "PENDING",
+    "KNOWN_CONTACT_PASS": "FAIL",
+    "NEW_EXPLICIT_CERTIFICATE": "FAIL",
+    "NEW_EXPONENT": "FAIL",
+    "NEW_PARAMETERIZED_CONSTRUCTOR": "FAIL",
+    "NEW_VERIFIED_RANK": "FAIL",
+    "NOVEL_CONTACT_PASS": "FAIL",
+    "PARENT_3736_EXACT_VALIDATION": "FAIL",
+    "PARSER_CONVENTIONS_EXHAUSTED": "PASS",
+    "PUBLIC_REPO_ACCESS": "PENDING",
+    "RANK_3744_RECONSTRUCTED": "FAIL",
+    "RAW_3825_RESOLVED": "PASS",
+    "RESIDUAL_COMPLETION_RANK": "UNKNOWN",
+    "RESIDUAL_LOCALIZED": "PASS",
+    "SOURCE_FORENSICS_PASS": "FAIL",
+    "TRUNCATION_8_CONFIRMED": "FAIL",
+    "TURING_PATH_PASS": "FAIL"
+  }
+}

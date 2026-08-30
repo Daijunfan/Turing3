@@ -1,0 +1,20 @@
+name: exact-verification
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pytest numpy
+      - run: python -m pytest -q tests germsynth/tests
+      - name: Build C++ controls
+        run: |
+          mkdir -p build
+          g++ -std=c++17 -O2 -Wall -Wextra -pedantic independent_verifiers/verify_contact_certificate.cpp -o build/verify_contact_certificate
+          g++ -std=c++17 -O2 -Wall -Wextra -pedantic independent_verifiers/verify_8x27x30_3744.cpp -o build/verify_8x27x30_3744
+      - run: build/verify_contact_certificate certificates/known_4x4x4_rank48.json
+      - name: Invalid rank-3744 certificate must be rejected
+        run: '! build/verify_8x27x30_3744 certificates/matmul_8x27x30_rank3744.json'

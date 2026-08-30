@@ -1,36 +1,42 @@
 {
-  "attempts": [],
-  "new_exact_rank": false,
-  "novel_fusion_kernel": false,
-  "priority_shapes": [
-    [
-      2,
-      2,
-      2
-    ],
-    [
-      2,
-      2,
-      3
-    ],
-    [
-      2,
-      3,
-      3
-    ],
-    [
-      2,
-      4,
-      4
-    ],
-    [
-      3,
-      3,
-      3
-    ]
+  "attempts": [
+    {
+      "backend": "exact local flip/meta-flip",
+      "candidates": [],
+      "failure_reason": "No verified improving move in the deterministic one-move neighbourhood.",
+      "input_products": 0,
+      "operators": [
+        "tensor-preserving flip",
+        "rank-one merge"
+      ],
+      "residual_sha256": "fd10d9c15885f9b4a0306489a14db71f1f023ad0cebd840984e62093cfffc493",
+      "seed": 1701,
+      "status": "COMPLETED_NO_CANDIDATE"
+    },
+    {
+      "backend": "finite-field SAT",
+      "candidates": [],
+      "field": 2,
+      "rank_budget": 8,
+      "scope": "No UNSAT claim",
+      "search_space": "Brent equations over the declared residual support",
+      "seconds": 9.5367431640625e-07,
+      "seed": 1702,
+      "status": "NOT_RUN_NO_SAT_SOLVER"
+    },
+    {
+      "backend": "exact residual solver",
+      "checkpoint": "/Users/djf/develop/CS/Turing/Turing3/results/checkpoints/residual_solver.json",
+      "lower_bound": 54,
+      "rank_budget": 8,
+      "seed": 1703,
+      "status": "PROVED_IMPOSSIBLE_BY_FLATTENING"
+    }
   ],
-  "reason": "SOURCE_INVALID: exact parent tensor verification failed",
-  "search_representation": "exact sparse rank-one terms with checkpointing",
-  "status": "NOT_RUN",
-  "valid_seed_count": 0
+  "new_exponent": false,
+  "new_parameterized_constructor": false,
+  "new_verified_rank": false,
+  "novel_contact": false,
+  "reason": "No exact verified candidate; SAT backend unavailable and flattening excludes rank <=8 for the tested local residual.",
+  "status": "FAIL"
 }

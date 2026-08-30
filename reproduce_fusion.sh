@@ -4,7 +4,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
 mkdir -p build results
-exec > >(tee results/full_reproduction.log) 2>&1
+FUSION_LOG="${FUSION_LOG:-results/full_reproduction.log}"
+exec > >(tee "$FUSION_LOG") 2>&1
 
 BASE="$ROOT/germsynth"
 PY="$BASE/.venv/bin/python"

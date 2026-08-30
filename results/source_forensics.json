@@ -1,0 +1,594 @@
+{
+  "content_hash_comparison": {
+    "tensor_vs_lrp": "IDENTICAL_FACTORS",
+    "tensor_vs_raw": "DIFFERENT_CONTENT_AND_RANK"
+  },
+  "parent": {
+    "current_page_bytes": 42379,
+    "current_representation_ranks": {
+      "LRP": 3736,
+      "Tensor": 3736,
+      "page": 3744,
+      "raw": 3825
+    },
+    "lrp": {
+      "exact": false,
+      "modular_screens": [
+        {
+          "prime": 1000003,
+          "residual_count": 28098,
+          "sample": [
+            {
+              "a": 24,
+              "b": 729,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 25,
+              "b": 759,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 26,
+              "b": 789,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 24,
+              "b": 639,
+              "c": 9,
+              "value": "500002"
+            },
+            {
+              "a": 24,
+              "b": 645,
+              "c": 9,
+              "value": "500002"
+            },
+            {
+              "a": 24,
+              "b": 648,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 24,
+              "b": 657,
+              "c": 9,
+              "value": "1"
+            },
+            {
+              "a": 25,
+              "b": 669,
+              "c": 9,
+              "value": "500002"
+            }
+          ]
+        }
+      ],
+      "reason": "nonzero residual modulo 1000003",
+      "status": "FAIL"
+    },
+    "lrp_rank": 3736,
+    "matmulcatalog_page_metadata_raw_len": 25276,
+    "matmulcatalog_saved_artifact": "ABSENT: paper text references the URL but the 3736 factor file is not committed",
+    "raw": {
+      "coordinates_checked": 41990400,
+      "exact": true,
+      "logical_tensor_coordinates": 41990400,
+      "modular_screens": [
+        {
+          "prime": 1000003,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000033,
+          "residual_count": 0,
+          "sample": []
+        },
+        {
+          "prime": 1000037,
+          "residual_count": 0,
+          "sample": []
+        }
+      ],
+      "rank": 3825,
+      "residual_count": 0,
+      "residual_sample": [],
+      "shape": [
+        8,
+        27,
+        30
+      ],
+      "status": "PASS"
+    },
+    "raw_semantic_rank": 3825,
+    "tensor": {
+      "exact": false,
+      "modular_screens": [
+        {
+          "prime": 1000003,
+          "residual_count": 28098,
+          "sample": [
+            {
+              "a": 24,
+              "b": 729,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 25,
+              "b": 759,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 26,
+              "b": 789,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 24,
+              "b": 639,
+              "c": 9,
+              "value": "500002"
+            },
+            {
+              "a": 24,
+              "b": 645,
+              "c": 9,
+              "value": "500002"
+            },
+            {
+              "a": 24,
+              "b": 648,
+              "c": 9,
+              "value": "1000002"
+            },
+            {
+              "a": 24,
+              "b": 657,
+              "c": 9,
+              "value": "1"
+            },
+            {
+              "a": 25,
+              "b": 669,
+              "c": 9,
+              "value": "500002"
+            }
+          ]
+        }
+      ],
+      "reason": "nonzero residual modulo 1000003",
+      "status": "FAIL"
+    },
+    "tensor_lrp_factor_identity": true,
+    "tensor_rank": 3736
+  },
+  "positive_controls": [
+    {
+      "lrp": {
+        "coordinates_checked": 64,
+        "exact": true,
+        "logical_tensor_coordinates": 64,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 7,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "status": "PASS"
+      },
+      "lrp_rank": 7,
+      "raw": {
+        "coordinates_checked": 64,
+        "exact": true,
+        "logical_tensor_coordinates": 64,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 7,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "status": "PASS"
+      },
+      "raw_rank": 7,
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "tensor": {
+        "coordinates_checked": 64,
+        "exact": true,
+        "logical_tensor_coordinates": 64,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 7,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "status": "PASS"
+      },
+      "tensor_lrp_factor_identity": true,
+      "tensor_rank": 7
+    },
+    {
+      "lrp": {
+        "coordinates_checked": 324,
+        "exact": true,
+        "logical_tensor_coordinates": 324,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 15,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          2,
+          3,
+          3
+        ],
+        "status": "PASS"
+      },
+      "lrp_rank": 15,
+      "raw": {
+        "coordinates_checked": 324,
+        "exact": true,
+        "logical_tensor_coordinates": 324,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 15,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          2,
+          3,
+          3
+        ],
+        "status": "PASS"
+      },
+      "raw_rank": 15,
+      "shape": [
+        2,
+        3,
+        3
+      ],
+      "tensor": {
+        "coordinates_checked": 324,
+        "exact": true,
+        "logical_tensor_coordinates": 324,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 15,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          2,
+          3,
+          3
+        ],
+        "status": "PASS"
+      },
+      "tensor_lrp_factor_identity": true,
+      "tensor_rank": 15
+    },
+    {
+      "lrp": {
+        "coordinates_checked": 1296,
+        "exact": true,
+        "logical_tensor_coordinates": 1296,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 29,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          3,
+          3,
+          4
+        ],
+        "status": "PASS"
+      },
+      "lrp_rank": 29,
+      "raw": {
+        "coordinates_checked": 1296,
+        "exact": true,
+        "logical_tensor_coordinates": 1296,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 29,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          3,
+          3,
+          4
+        ],
+        "status": "PASS"
+      },
+      "raw_rank": 29,
+      "shape": [
+        3,
+        3,
+        4
+      ],
+      "tensor": {
+        "coordinates_checked": 1296,
+        "exact": true,
+        "logical_tensor_coordinates": 1296,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 29,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          3,
+          3,
+          4
+        ],
+        "status": "PASS"
+      },
+      "tensor_lrp_factor_identity": true,
+      "tensor_rank": 29
+    },
+    {
+      "lrp": {
+        "coordinates_checked": 129600,
+        "exact": true,
+        "logical_tensor_coordinates": 129600,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 250,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          4,
+          9,
+          10
+        ],
+        "status": "PASS"
+      },
+      "lrp_rank": 250,
+      "raw": {
+        "coordinates_checked": 129600,
+        "exact": true,
+        "logical_tensor_coordinates": 129600,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 255,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          4,
+          9,
+          10
+        ],
+        "status": "PASS"
+      },
+      "raw_rank": 255,
+      "shape": [
+        4,
+        9,
+        10
+      ],
+      "tensor": {
+        "coordinates_checked": 129600,
+        "exact": true,
+        "logical_tensor_coordinates": 129600,
+        "modular_screens": [
+          {
+            "prime": 1000003,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000033,
+            "residual_count": 0,
+            "sample": []
+          },
+          {
+            "prime": 1000037,
+            "residual_count": 0,
+            "sample": []
+          }
+        ],
+        "rank": 250,
+        "residual_count": 0,
+        "residual_sample": [],
+        "shape": [
+          4,
+          9,
+          10
+        ],
+        "status": "PASS"
+      },
+      "tensor_lrp_factor_identity": true,
+      "tensor_rank": 250
+    }
+  ],
+  "reason": "history service unavailable and current source representations are mutually inconsistent",
+  "status": "FAIL"
+}

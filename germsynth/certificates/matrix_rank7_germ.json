@@ -46,14 +46,14 @@
         5,
         6
       ],
-      "seconds": 0.021695957984775305,
+      "seconds": 0.017986999999266118,
       "unique_left_sums": 4096
     },
     "support_search": {
       "exact_flips": 171,
       "field": "GF(2)",
       "naive_xor_additions": 18,
-      "seconds": 0.027744084014557302,
+      "seconds": 0.024615000002086163,
       "seed": 17,
       "visited_states": 172
     }

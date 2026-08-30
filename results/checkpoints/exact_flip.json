@@ -1,0 +1,13 @@
+{
+  "backend": "exact local flip/meta-flip",
+  "candidates": [],
+  "failure_reason": "No verified improving move in the deterministic one-move neighbourhood.",
+  "input_products": 0,
+  "operators": [
+    "tensor-preserving flip",
+    "rank-one merge"
+  ],
+  "residual_sha256": "fd10d9c15885f9b4a0306489a14db71f1f023ad0cebd840984e62093cfffc493",
+  "seed": 1701,
+  "status": "COMPLETED_NO_CANDIDATE"
+}

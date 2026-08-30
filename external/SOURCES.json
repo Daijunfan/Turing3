@@ -1,5 +1,5 @@
 {
-  "download_date": "2026-08-30",
+  "download_date": "2026-08-31",
   "fmm_lille": {
     "consistency": "FAIL: page, LRP/Tensor, and raw program declare three different ranks",
     "explicit_artifact_rank": 3736,

@@ -1,0 +1,8 @@
+{
+  "backend": "exact residual solver",
+  "checkpoint": "/Users/djf/develop/CS/Turing/Turing3/results/checkpoints/residual_solver.json",
+  "lower_bound": 54,
+  "rank_budget": 8,
+  "seed": 1703,
+  "status": "PROVED_IMPOSSIBLE_BY_FLATTENING"
+}
