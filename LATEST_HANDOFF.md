@@ -22,8 +22,8 @@ Generated from commit: `2f7239ae6d72867548ad051188e9109a39cd126f` (the delivery 
 | NEW_PARAMETERIZED_CONSTRUCTOR | **FAIL** |
 | NEW_EXPONENT | **FAIL** |
 | TURING_PATH_PASS | **FAIL** |
-| GITHUB_PUSH | **PENDING** |
-| PUBLIC_REPO_ACCESS | **PENDING** |
+| GITHUB_PUSH | **PASS** |
+| PUBLIC_REPO_ACCESS | **FAIL** |
 
 ## Required conclusions
 
@@ -44,4 +44,4 @@ Generated from commit: `2f7239ae6d72867548ad051188e9109a39cd126f` (the delivery 
 
 ## GitHub delivery
 
-Target branch: `codex/germsynth-cr-v1`; target main: `main`; annotated tag: `germsynth-cr-v1`. Final push/public statuses are updated by the release step.
+Finalization parent: `efabc2c9495d1a956d3229ea4cc1b66390ebd9ac`. Work branch: `codex/germsynth-cr-v1`; main: `main`; annotated tag: `germsynth-cr-v1`. Branch/main/tag pushes use SSH. Anonymous HTTPS access fails and repository visibility was not changed.
