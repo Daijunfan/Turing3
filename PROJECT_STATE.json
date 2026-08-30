@@ -1,12 +1,12 @@
 {
-  "base_commit": "2f7239ae6d72867548ad051188e9109a39cd126f",
+  "base_commit": "9e3ebe640f373ba91cd60eaef4369daf5cd179f8",
   "branch": "codex/germsynth-cr-v1",
   "official_summary": "results/latest_summary.json",
   "project": "GermSynth-CR",
   "release": {
     "branch": "codex/germsynth-cr-v1",
     "main": "main",
-    "parent_commit": "efabc2c9495d1a956d3229ea4cc1b66390ebd9ac",
+    "parent_commit": "9e3ebe640f373ba91cd60eaef4369daf5cd179f8",
     "public_access": "FAIL (repository requires credentials; visibility not changed)",
     "tag": "germsynth-cr-v1"
   },
@@ -15,7 +15,7 @@
     "BASELINE_REPRODUCTION": "PASS",
     "CONTACT_COMPILER_PASS": "FAIL",
     "CXX_INDEPENDENT_VERIFICATION": "FAIL",
-    "GITHUB_PUSH": "PASS",
+    "GITHUB_PUSH": "FAIL",
     "KNOWN_CONTACT_PASS": "FAIL",
     "NEW_EXPLICIT_CERTIFICATE": "FAIL",
     "NEW_EXPONENT": "FAIL",

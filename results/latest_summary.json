@@ -387,9 +387,9 @@
       "http": "404",
       "status": "FAIL"
     },
-    "finalization_parent_commit": "efabc2c9495d1a956d3229ea4cc1b66390ebd9ac",
+    "finalization_parent_commit": "9e3ebe640f373ba91cd60eaef4369daf5cd179f8",
     "main": "main",
-    "note": "GITHUB_PUSH is finalized only after the release commands push both branches and the annotated tag; a corrective commit is required if any command fails.",
+    "note": "SSH branch/main/tag pushes passed, but the project gate requires anonymous handoff access too; therefore GITHUB_PUSH and PUBLIC_REPO_ACCESS are both FAIL.",
     "push_transport": "SSH",
     "visibility_action": "UNCHANGED",
     "work_branch": "codex/germsynth-cr-v1"
@@ -5664,7 +5664,7 @@
     "BASELINE_REPRODUCTION": "PASS",
     "CONTACT_COMPILER_PASS": "FAIL",
     "CXX_INDEPENDENT_VERIFICATION": "FAIL",
-    "GITHUB_PUSH": "PASS",
+    "GITHUB_PUSH": "FAIL",
     "KNOWN_CONTACT_PASS": "FAIL",
     "NEW_EXPLICIT_CERTIFICATE": "FAIL",
     "NEW_EXPONENT": "FAIL",

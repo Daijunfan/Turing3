@@ -1,9 +1,10 @@
 GermSynth-CR GitHub release audit
-time=2026-08-30T16:35:34.113089+00:00
-parent_commit=efabc2c9495d1a956d3229ea4cc1b66390ebd9ac
+time=2026-08-30T16:37:15.666304+00:00
+parent_commit=9e3ebe640f373ba91cd60eaef4369daf5cd179f8
 work_branch_initial_push=PASS
 main_initial_push=PASS
 anonymous_git_ls_remote=FAIL exit=128 error='could not read Username; terminal prompts disabled'
 anonymous_latest_handoff_curl=FAIL exit=56 http=404
 repository_visibility_changed=NO
-final_branch_main_tag_push=PASS (release controller verifies all three refs immediately after this finalization commit)
+ssh_branch_main_tag_push=PASS
+combined_GITHUB_PUSH_gate=FAIL (anonymous access is required and failed)

@@ -1,6 +1,6 @@
 # GermSynth-CR — LATEST HANDOFF
 
-Generated from commit: `2f7239ae6d72867548ad051188e9109a39cd126f` (the delivery tag is authoritative because a commit cannot contain its own SHA).
+Release-state parent commit: `9e3ebe640f373ba91cd60eaef4369daf5cd179f8`. The checked-out `main` SHA is authoritative because a commit cannot contain its own SHA.
 
 | Status | Value |
 |---|---|
@@ -22,7 +22,7 @@ Generated from commit: `2f7239ae6d72867548ad051188e9109a39cd126f` (the delivery 
 | NEW_PARAMETERIZED_CONSTRUCTOR | **FAIL** |
 | NEW_EXPONENT | **FAIL** |
 | TURING_PATH_PASS | **FAIL** |
-| GITHUB_PUSH | **PASS** |
+| GITHUB_PUSH | **FAIL** |
 | PUBLIC_REPO_ACCESS | **FAIL** |
 
 ## Required conclusions
@@ -44,4 +44,4 @@ Generated from commit: `2f7239ae6d72867548ad051188e9109a39cd126f` (the delivery 
 
 ## GitHub delivery
 
-Finalization parent: `efabc2c9495d1a956d3229ea4cc1b66390ebd9ac`. Work branch: `codex/germsynth-cr-v1`; main: `main`; annotated tag: `germsynth-cr-v1`. Branch/main/tag pushes use SSH. Anonymous HTTPS access fails and repository visibility was not changed.
+Release-state parent: `9e3ebe640f373ba91cd60eaef4369daf5cd179f8`. Work branch and main contain this corrective state after synchronization. Annotated tag `germsynth-cr-v1` points to the preceding release commit `9e3ebe640f373ba91cd60eaef4369daf5cd179f8` and is not force-moved. SSH branch/main/tag pushes passed, but the combined GITHUB gate is FAIL because anonymous HTTPS access fails; repository visibility was not changed.
