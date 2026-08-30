@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+*.egg-info/
+
+# Compiled local artifacts
+/build/
+/germsynth/build/
+
+# Large third-party repository snapshots. Keep the pinned manifest and the
+# small FMM-Lille source artifacts required by reproduce_fusion.sh.
+/external/*
+!/external/SOURCES.json
+!/external/fmm-lille/
+!/external/fmm-lille/**
+
+# OS metadata
+.DS_Store

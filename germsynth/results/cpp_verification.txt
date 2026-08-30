@@ -1,0 +1,9 @@
+n=1 exact=true scalar_multiplications=1
+n=2 exact=true scalar_multiplications=7
+n=4 exact=true scalar_multiplications=49
+n=8 exact=true scalar_multiplications=343
+n=16 exact=true scalar_multiplications=2401
+n=32 exact=true scalar_multiplications=16807
+n=64 exact=true scalar_multiplications=117649
+n=128 exact=true scalar_multiplications=823543
+CXX_INDEPENDENT_VERIFICATION=PASS

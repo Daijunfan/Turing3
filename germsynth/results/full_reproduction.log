@@ -1,0 +1,43 @@
+
+[1/8] Exact search, lifting, recursive and polymorphic experiments
+{
+  "status": "PASS",
+  "results": "/mnt/data/germsynth/results/results.json",
+  "matrix_certificate": "/mnt/data/germsynth/certificates/matrix_rank7_germ.json",
+  "karatsuba_certificate": "/mnt/data/germsynth/certificates/karatsuba_germ.json",
+  "phenotypes": 16,
+  "pipeline_seconds": 11.813317847000008
+}
+
+[2/8] Unit and negative-certificate tests
+...........                                                              [100%]
+11 passed in 7.32s
+
+[3/8] Independent Python germ verification
+{"block_factor": 2, "certificate": "certificates/karatsuba_germ.json", "exact_tensor_identity": true, "exhaustive_base_cases": 625, "exponent": 1.5849625007211563, "name": "Discovered rank-3 polynomial multiplication germ", "rank": 3, "status": "PASS"}
+{"block_factor": 2, "certificate": "certificates/matrix_rank7_germ.json", "exact_tensor_identity": true, "exhaustive_base_cases": 6561, "exponent": 2.807354922057604, "name": "Rank-7 matrix multiplication phenotype from seed 17", "rank": 7, "status": "PASS"}
+
+[4/8] Independent Python pool/cover verification
+{"certificate": "certificates/matrix_phenotype_pool.json", "exact_phenotypes": 16, "minimum_single_fault_cover_size": 3, "resource_universe": 44, "single_failures_covered": 44, "single_failures_total": 44, "status": "PASS"}
+
+[5/8] Emit and compile standalone C++ germ checker
+n=1 exact=true scalar_multiplications=1
+n=2 exact=true scalar_multiplications=7
+n=4 exact=true scalar_multiplications=49
+n=8 exact=true scalar_multiplications=343
+n=16 exact=true scalar_multiplications=2401
+n=32 exact=true scalar_multiplications=16807
+n=64 exact=true scalar_multiplications=117649
+n=128 exact=true scalar_multiplications=823543
+CXX_INDEPENDENT_VERIFICATION=PASS
+
+[6/8] Emit and compile standalone C++ phenotype-pool checker
+mixed n=64 exact=true scalar_multiplications=117649
+fault-aware n=32 exact=true scalar_multiplications=16807
+phenotypes=16 resources=44 minimum_single_fault_cover=3
+CXX_POOL_INDEPENDENT_VERIFICATION=PASS
+
+[7/8] Build source manifest
+
+[8/8] Final status
+FULL_REPRODUCTION=PASS

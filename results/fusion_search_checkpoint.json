@@ -1,0 +1,36 @@
+{
+  "attempts": [],
+  "new_exact_rank": false,
+  "novel_fusion_kernel": false,
+  "priority_shapes": [
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      4,
+      4
+    ],
+    [
+      3,
+      3,
+      3
+    ]
+  ],
+  "reason": "SOURCE_INVALID: exact parent tensor verification failed",
+  "search_representation": "exact sparse rank-one terms with checkpointing",
+  "status": "NOT_RUN",
+  "valid_seed_count": 0
+}

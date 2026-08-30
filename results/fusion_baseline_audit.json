@@ -1,0 +1,60 @@
+{
+  "checks": {
+    "independent_cpp_germ_verifier": true,
+    "independent_cpp_pool_verifier": true,
+    "independent_python_germ_verifiers": true,
+    "independent_python_pool_verifier": true,
+    "minimum_three_phenotype_single_fault_cover": true,
+    "python_tests": true,
+    "sixteen_phenotypes": true
+  },
+  "commands": [
+    {
+      "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/.venv/bin/python -m pytest -q",
+      "pass": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "...........                                                              [100%]\n11 passed in 6.68s\n"
+    },
+    {
+      "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/.venv/bin/python independent_verify.py certificates/karatsuba_germ.json",
+      "pass": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"block_factor\": 2, \"certificate\": \"certificates/karatsuba_germ.json\", \"exact_tensor_identity\": true, \"exhaustive_base_cases\": 625, \"exponent\": 1.5849625007211563, \"name\": \"Discovered rank-3 polynomial multiplication germ\", \"rank\": 3, \"status\": \"PASS\"}\n"
+    },
+    {
+      "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/.venv/bin/python independent_verify.py certificates/matrix_rank7_germ.json",
+      "pass": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"block_factor\": 2, \"certificate\": \"certificates/matrix_rank7_germ.json\", \"exact_tensor_identity\": true, \"exhaustive_base_cases\": 6561, \"exponent\": 2.807354922057604, \"name\": \"Rank-7 matrix multiplication phenotype from seed 17\", \"rank\": 7, \"status\": \"PASS\"}\n"
+    },
+    {
+      "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/.venv/bin/python independent_verify_pool.py certificates/matrix_phenotype_pool.json",
+      "pass": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"certificate\": \"certificates/matrix_phenotype_pool.json\", \"exact_phenotypes\": 16, \"minimum_single_fault_cover_size\": 3, \"resource_universe\": 44, \"single_failures_covered\": 44, \"single_failures_total\": 44, \"status\": \"PASS\"}\n"
+    },
+    {
+      "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/build/matrix_rank7_germ_verify",
+      "pass": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "n=1 exact=true scalar_multiplications=1\nn=2 exact=true scalar_multiplications=7\nn=4 exact=true scalar_multiplications=49\nn=8 exact=true scalar_multiplications=343\nn=16 exact=true scalar_multiplications=2401\nn=32 exact=true scalar_multiplications=16807\nn=64 exact=true scalar_multiplications=117649\nn=128 exact=true scalar_multiplications=823543\nCXX_INDEPENDENT_VERIFICATION=PASS\n"
+    },
+    {
+      "command": "/Users/djf/develop/CS/Turing/Turing3/germsynth/build/matrix_pool_verify",
+      "pass": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "mixed n=64 exact=true scalar_multiplications=117649\nfault-aware n=32 exact=true scalar_multiplications=16807\nphenotypes=16 resources=44 minimum_single_fault_cover=3\nCXX_POOL_INDEPENDENT_VERIFICATION=PASS\n"
+    }
+  ],
+  "date": "2026-08-30",
+  "note": "The original reproduce.sh first stopped because system Python 3.14 lacked pytest; the equivalent entry was rerun in germsynth/.venv without changing baseline source semantics.",
+  "original_archive": "GermSynth-R_prototype.zip",
+  "original_archive_sha256": "69c11fc7554938a2b878d5844951bed62068294c7329e915ab8382d42b3dab8a",
+  "status": "PASS"
+}

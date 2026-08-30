@@ -1,0 +1,103 @@
+{
+  "block_factor": 2,
+  "coefficient_domain": "integers",
+  "complexity_certificate": {
+    "closed_form_on_powers": "M(2^k) = 3^k",
+    "recurrence": "T(n) = 3 T(n/2) + lower-order work",
+    "scalar_multiplication_exponent": 1.5849625007211563
+  },
+  "experiments": {
+    "exhaustive_integer_base_cases": 625,
+    "largest_recursive_n": 1024,
+    "largest_recursive_scalar_multiplications": 59049
+  },
+  "local_identity_verified": true,
+  "name": "Discovered rank-3 polynomial multiplication germ",
+  "problem": {
+    "a_dim": 2,
+    "b_dim": 2,
+    "base_shape": [
+      2,
+      2,
+      3
+    ],
+    "kind": "polynomial_multiplication",
+    "name": "degree-1 polynomial multiplication",
+    "out_dim": 3
+  },
+  "proof_obligation": {
+    "local": "target tensor equals the exact sum of rank-one term tensors",
+    "recursive_closure": "For each power-of-two scale, substitute blocks for scalar variables; the local polynomial identity and the induction hypothesis imply the next scale."
+  },
+  "provenance": {
+    "distinct_rank_one_tensors": 416,
+    "examined_pairs": 6269,
+    "method": "exact ternary rank-one enumeration plus complement hashing",
+    "search_seconds": 0.005785249988548458
+  },
+  "rank": 3,
+  "reconstructed_tensor_sha256": "2a3e73cbfb671d5dbb2db6a7b9dfae4ab5040b1621cedb924bdaf6731e9921b6",
+  "schema": "germsynth-bilinear-germ-v1",
+  "target_tensor": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "target_tensor_sha256": "2a3e73cbfb671d5dbb2db6a7b9dfae4ab5040b1621cedb924bdaf6731e9921b6",
+  "terms": [
+    {
+      "u": [
+        1,
+        1
+      ],
+      "v": [
+        1,
+        1
+      ],
+      "w": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "u": [
+        1,
+        0
+      ],
+      "v": [
+        1,
+        0
+      ],
+      "w": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "u": [
+        0,
+        1
+      ],
+      "v": [
+        0,
+        1
+      ],
+      "w": [
+        0,
+        -1,
+        1
+      ]
+    }
+  ]
+}

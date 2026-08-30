@@ -1,0 +1,51 @@
+{
+  "empirical_fit": "NOT_RUN_SOURCE_INVALID",
+  "empirical_single_type_regressions": [
+    {
+      "absolute_error": 0.0,
+      "gamma_empirical": 1.5849625007211563,
+      "gamma_theory": 1.5849625007211563,
+      "levels": 12,
+      "pass": true
+    },
+    {
+      "absolute_error": 0.0,
+      "gamma_empirical": 2.807354922057604,
+      "gamma_theory": 2.807354922057604,
+      "levels": 12,
+      "pass": true
+    }
+  ],
+  "empirical_tolerance": 0.01,
+  "multi_type_engine_implemented": true,
+  "new_exponent": false,
+  "parent_before_after": "NOT_AVAILABLE_SOURCE_INVALID",
+  "single_type_regressions": [
+    {
+      "absolute_error": 2.220446049250313e-16,
+      "expected_log": 1.5849625007211563,
+      "gamma": "1.584962500721156181453738943947592392341927654185589095343575111868306",
+      "lower_bound": "1.584962500721156181453738943947099354276164521807206764990273370474761",
+      "pass": true,
+      "rank": 3,
+      "rho_lower": "1.000000000000000000000000000000497093608367841797946972114855015663623",
+      "rho_upper": "0.999999999999999999999999999999813597717982953581285740025297524844334",
+      "scale": 2,
+      "upper_bound": "1.584962500721156181453738943948085430407690786563971425696876853261852"
+    },
+    {
+      "absolute_error": 0.0,
+      "expected_log": 2.807354922057604,
+      "gamma": "2.807354922057604107441969317231342843987658735390027831871058525831100",
+      "lower_bound": "2.807354922057604107441969317230849805921895603011645501517756784437554",
+      "pass": true,
+      "rank": 7,
+      "rho_lower": "1.000000000000000000000000000000679979268887308482526639857586414855017",
+      "rho_upper": "0.999999999999999999999999999999996483378502420265865407768028799034130",
+      "scale": 2,
+      "upper_bound": "2.807354922057604107441969317231835882053421867768410162224360267224646"
+    }
+  ],
+  "status": "PARTIAL_SOURCE_INVALID",
+  "structured_public_reproduction": "NOT_RUN_SOURCE_INVALID"
+}

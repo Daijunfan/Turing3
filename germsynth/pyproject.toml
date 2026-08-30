@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "germsynth-prototype"
+version = "0.1.0"
+description = "Exact discovery, lifting, certification and polymorphic execution of recursive bilinear algorithm germs"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+include = ["germsynth*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

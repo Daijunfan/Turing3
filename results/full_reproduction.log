@@ -1,0 +1,74 @@
+[1/7] GermSynth-R baseline regeneration
+{
+  "status": "PASS",
+  "results": "/Users/djf/develop/CS/Turing/Turing3/germsynth/results/results.json",
+  "matrix_certificate": "/Users/djf/develop/CS/Turing/Turing3/germsynth/certificates/matrix_rank7_germ.json",
+  "karatsuba_certificate": "/Users/djf/develop/CS/Turing/Turing3/germsynth/certificates/karatsuba_germ.json",
+  "phenotypes": 16,
+  "pipeline_seconds": 7.858538041997235
+}
+...........                                                              [100%]
+11 passed in 5.58s
+{"block_factor": 2, "certificate": "certificates/karatsuba_germ.json", "exact_tensor_identity": true, "exhaustive_base_cases": 625, "exponent": 1.5849625007211563, "name": "Discovered rank-3 polynomial multiplication germ", "rank": 3, "status": "PASS"}
+{"block_factor": 2, "certificate": "certificates/matrix_rank7_germ.json", "exact_tensor_identity": true, "exhaustive_base_cases": 6561, "exponent": 2.807354922057604, "name": "Rank-7 matrix multiplication phenotype from seed 17", "rank": 7, "status": "PASS"}
+{"certificate": "certificates/matrix_phenotype_pool.json", "exact_phenotypes": 16, "minimum_single_fault_cover_size": 3, "resource_universe": 44, "single_failures_covered": 44, "single_failures_total": 44, "status": "PASS"}
+n=1 exact=true scalar_multiplications=1
+n=2 exact=true scalar_multiplications=7
+n=4 exact=true scalar_multiplications=49
+n=8 exact=true scalar_multiplications=343
+n=16 exact=true scalar_multiplications=2401
+n=32 exact=true scalar_multiplications=16807
+n=64 exact=true scalar_multiplications=117649
+n=128 exact=true scalar_multiplications=823543
+CXX_INDEPENDENT_VERIFICATION=PASS
+mixed n=64 exact=true scalar_multiplications=117649
+fault-aware n=32 exact=true scalar_multiplications=16807
+phenotypes=16 resources=44 minimum_single_fault_cover=3
+CXX_POOL_INDEPENDENT_VERIFICATION=PASS
+[2/7] Exact Python extraction and certificates
+{
+  "status": "COMPLETED_WITH_SOURCE_INVALID",
+  "statuses": {
+    "BASELINE_REPRODUCTION": "PASS",
+    "PARENT_EXACT_VERIFICATION": "FAIL",
+    "AUTOMATIC_SLOT_INFERENCE": "PASS",
+    "FUSION_KERNEL_EXTRACTION": "FAIL",
+    "FULL_GAIN_14_EXPLAINED": "FAIL",
+    "CXX_INDEPENDENT_VERIFICATION": "FAIL",
+    "CONSTRUCTOR_PASS": "FAIL",
+    "ALL_SIX_DEFICITS_CLOSED": "FAIL",
+    "NOVEL_FUSION_KERNEL": "FAIL",
+    "NEW_EXACT_RANK": "FAIL",
+    "NEW_EXPONENT": "FAIL",
+    "TURING_PATH_PASS": "FAIL"
+  },
+  "parent_residual_count": 28098,
+  "nominal_gain": 14,
+  "exact_gain": false
+}
+[3/7] GermSynth-F Python tests
+.....                                                                    [100%]
+5 passed in 29.05s
+[4/7] Compile independent C++17 verifiers
+[5/7] Positive controls and coefficient-mutation rejection
+CXX_PARENT_INDEPENDENT_VERIFICATION=PASS exact=true rank=15
+CXX_PARENT_INDEPENDENT_VERIFICATION=FAIL residual_count_mod_1000003=6 sample=a=3,b=0,c=0,value=1
+CXX_FUSION_KERNEL_VERIFICATION=PASS exact=true rank=15 fusion_gain=0
+CXX_FUSION_KERNEL_VERIFICATION=FAIL residual_count_mod_1000003=132 sample=a=27,b=270,c=60,value=1000002
+[6/7] Required invalid-source certificates must be rejected
+CXX_PARENT_INDEPENDENT_VERIFICATION=FAIL residual_count_mod_1000003=28098 sample=a=26,b=789,c=9,value=1000002
+CXX_FUSION_KERNEL_VERIFICATION=FAIL residual_count_mod_1000003=2232 sample=a=64,b=666,c=18,value=1000002
+[7/7] Final status and package
+BASELINE_REPRODUCTION=PASS
+PARENT_EXACT_VERIFICATION=FAIL
+AUTOMATIC_SLOT_INFERENCE=PASS
+FUSION_KERNEL_EXTRACTION=FAIL
+FULL_GAIN_14_EXPLAINED=FAIL
+CXX_INDEPENDENT_VERIFICATION=FAIL
+CONSTRUCTOR_PASS=FAIL
+ALL_SIX_DEFICITS_CLOSED=FAIL
+NOVEL_FUSION_KERNEL=FAIL
+NEW_EXACT_RANK=FAIL
+NEW_EXPONENT=FAIL
+TURING_PATH_PASS=FAIL
+REPRODUCTION_COMPLETED=TRUE (required invalid claims were rejected)

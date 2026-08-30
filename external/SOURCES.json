@@ -1,0 +1,93 @@
+{
+  "download_date": "2026-08-30",
+  "fmm_lille": {
+    "consistency": "FAIL: page, LRP/Tensor, and raw program declare three different ranks",
+    "explicit_artifact_rank": 3736,
+    "files": [
+      {
+        "bytes": 340,
+        "path": "external/fmm-lille/2x3x3/2x3x3_LRP.mpl.bz2",
+        "sha256": "db490eb80e5864c7a8c1ceedf4c35cc04582fc84a75a520576a856dc5a3a17ad"
+      },
+      {
+        "bytes": 381,
+        "path": "external/fmm-lille/2x3x3/2x3x3_raw.mpl.bz2",
+        "sha256": "34c8f7dbb56914c1cf25476c4d41f0047165b1e44ce6676fb70991def1019e75"
+      },
+      {
+        "bytes": 434,
+        "path": "external/fmm-lille/2x3x3/2x3x3_tensor.mpl.bz2",
+        "sha256": "1fbe8a519dc73e6a7b8861caac79f19c8ddfc766c39b8ba3357760e9e385b395"
+      },
+      {
+        "bytes": 4501,
+        "path": "external/fmm-lille/4x9x10/4x9x10_LRP.mpl.bz2",
+        "sha256": "303360a27f55c44c4e3461b331505ec157c4ed91c47890f9f275af68a0a2a843"
+      },
+      {
+        "bytes": 8432,
+        "path": "external/fmm-lille/4x9x10/4x9x10_raw.mpl.bz2",
+        "sha256": "b081901ec8f1cb2a4b4a0e5936095454f0164806750b8cfe36400763255c6c21"
+      },
+      {
+        "bytes": 5001,
+        "path": "external/fmm-lille/4x9x10/4x9x10_tensor.mpl.bz2",
+        "sha256": "e937d42a0f68cba8d78511f9aa99bfe1a49f25cb4c001671d3b719faf8f70dea"
+      },
+      {
+        "bytes": 77113,
+        "path": "external/fmm-lille/8x27x30/8x27x30_LRP.mpl.bz2",
+        "sha256": "6a0e168903e6a9eb59ea1e23b43bf9877e93b869c12545990a1c9ff12dc6a727"
+      },
+      {
+        "bytes": 109049,
+        "path": "external/fmm-lille/8x27x30/8x27x30_raw.mpl.bz2",
+        "sha256": "5a2411177e7a1283a2cf7050a61bf126371a9d7e2fcc107b568731c29a8381c8"
+      },
+      {
+        "bytes": 107418,
+        "path": "external/fmm-lille/8x27x30/8x27x30_tensor.mpl.bz2",
+        "sha256": "e23434231acd3eaeb1fb476f39c4cd8a3f6725e30a65a3e81814d5c3f77f82f5"
+      }
+    ],
+    "license": "NOASSERTION (no data license found on the source page)",
+    "page_rank_on_download": 3744,
+    "representation_ranks": {
+      "LRP": 3736,
+      "Tensor_TriadSet": 3736,
+      "raw_evaluation_program": 3825,
+      "web_page": 3744
+    },
+    "url": "https://fmm.univ-lille.fr/8x27x30.html"
+  },
+  "repositories": [
+    {
+      "acquisition": "GitHub commit tarball extracted under external/matmulcatalog",
+      "commit": "083df13af9b2d26a79f60a1fab76e171c0162b01",
+      "license": "NOASSERTION (no repository LICENSE found)",
+      "name": "matmulcatalog",
+      "url": "https://github.com/solven-eu/matmulcatalog"
+    },
+    {
+      "acquisition": "GitHub commit tarball extracted under external/matrix-multiplication",
+      "commit": "12c26b29a5458e173813911fb4f2c2865fba841e",
+      "license": "GPL-3.0",
+      "name": "matrix-multiplication",
+      "url": "https://github.com/mkauers/matrix-multiplication"
+    },
+    {
+      "acquisition": "GitHub commit tarball extracted under external/FastMatrixMultiplication",
+      "commit": "20995a9d02b459194413edc02d80284c54951941",
+      "license": "MIT",
+      "name": "FastMatrixMultiplication",
+      "url": "https://github.com/dronperminov/FastMatrixMultiplication"
+    },
+    {
+      "acquisition": "GitHub commit tarball extracted under external/ternary_flip_graph",
+      "commit": "b942f005c61882f678fafb65ba4f9f348f9ef8df",
+      "license": "MIT",
+      "name": "ternary_flip_graph",
+      "url": "https://github.com/dronperminov/ternary_flip_graph"
+    }
+  ]
+}

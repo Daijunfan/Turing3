@@ -1,0 +1,1 @@
+{"certificate": "certificates/matrix_phenotype_pool.json", "exact_phenotypes": 16, "minimum_single_fault_cover_size": 3, "resource_universe": 44, "single_failures_covered": 44, "single_failures_total": 44, "status": "PASS"}
